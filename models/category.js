@@ -16,3 +16,5 @@ categorySchema.set('toJSON', {
     delete returnedObject.__v;
   }
 });
+
+module.exports = mongoose.model('Category', categorySchema);
