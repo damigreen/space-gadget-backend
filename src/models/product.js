@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const productSchema = mongoose.Schema({
   product_id: String,
-  SKU: String,
+  product_SKU: String,
   product_name: String,
   product_description: String,
   suplier_id: String,
@@ -14,11 +14,11 @@ const productSchema = mongoose.Schema({
   inserted_at: Date,
   updated_at: Date,
   category_id: {
-    type: mongoose.Schema.type.ObjectId,
+    type: mongoose.Schema.Types.ObjectId,
     ref: 'Category'
   },
   subCategory_id: {
-    type: mongoose.Schema.Type.ObjectId,
+    type: mongoose.Schema.Types.ObjectId,
     ref: 'SubCategory'
   },
   phoneDetailSchema: {

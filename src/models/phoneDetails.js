@@ -15,4 +15,4 @@ const phoneDetailSchema = mongoose.Schema({
   }
 });
 
-const PhoneDetailSchema = mongoose.model('PhoneDetailSchema', phoneDetailSchema);
+module.exports = mongoose.model('PhoneDetail', phoneDetailSchema);
