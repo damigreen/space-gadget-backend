@@ -5,19 +5,31 @@ const productSchema = mongoose.Schema({
   SKU: String,
   product_name: String,
   product_description: String,
+  product_specs: {
+    model: String,
+    color: String
+  },
   suplier_id: String,
-  category_id: String,
   quantity_per_unit: Number,
   unit_price: Number,
   discount_price: Number,
   // MSRP: Number,
   //  availableSize: Number,
-   available_colors: { Type: [String] },
+  available_colors: { Type: [String] },
   //  size: String,
-   color: String,
-   product_image: String,
-   inserted_at: Date,
-   updated_at: Date,
+  color: String,
+  product_image: String,
+  inserted_at: Date,
+  updated_at: Date,
+  // category_id: String,
+  category_id: {
+    type: mongoose.Schema.type.ObjectId,
+    ref: 'Category'
+  },
+  subCategory_id: {
+    type: mongoose.Schema.Type.ObjectId,
+    ref: 'SubCategory'
+  }
 });
 
 
