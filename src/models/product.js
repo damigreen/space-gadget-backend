@@ -9,7 +9,7 @@ const productSchema = mongoose.Schema({
   quantity_per_unit: Number,
   unit_price: Number,
   discount_price: Number,
-  available_colors: { Type: [String] },
+  available_colors: { type: [String] },
   product_image: String,
   inserted_at: Date,
   updated_at: Date,
