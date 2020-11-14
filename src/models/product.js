@@ -4,15 +4,47 @@ const productSchema = mongoose.Schema({
   product_id: String,
   product_SKU: String,
   product_name: String,
+  product_model: String,
   product_description: String,
   suplier_id: String,
   quantity_per_unit: Number,
   unit_price: Number,
   discount_price: Number,
-  available_colors: { type: [String] },
+  product_color: String,
   product_image: String,
   inserted_at: Date,
   updated_at: Date,
+  network: {
+    technology: String,
+  },
+  body: {
+    dimensions: String,
+    weight: String,
+  },
+  display: {
+    displayType: String,
+    size: String,
+    resolution: String
+  },
+  platform: {
+    os: String,
+    chipset: String,
+  },
+  memory: {
+    internal: String,
+    // RAM: String
+  },
+  camera: {
+    main: String,
+    selfie: String
+  },
+  battery: {
+    batteryType: String
+  },
+  misc: {
+    colors: String,
+    models: String
+  },
   category_id: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Category'
