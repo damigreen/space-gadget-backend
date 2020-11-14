@@ -2,12 +2,43 @@ POST http://localhost:3004/api/products
 Content-type: application/json
 
 {
-  "product_SKU":  "Sam909kdl",
+  "product_SKU":  "Sam-A1-0Gr",
   "product_name": "Samsung",
+  "product_name": "Samsung Galaxy",
   "product_description": "Samsung Galaxy A10 smartphone was launched in February 2019. The phone comes with a 6.20-inch touchscreen display. Samsung Galaxy A10 is powered by an octa-core Samsung Exynos 7884 processor. It comes with 2GB of RAM. The Samsung Galaxy A10 runs Android Pie and is powered by a 3400mAh battery.",
   "quantity_per_unit": 10,
   "unit_price": 100000,
   "discount_price": "",
-  "available_colors": ["green", "black", "blue", "gold"],
-  "product_image": "images/samsung-galaxy-a10-green"
+  "product_color": "Green",
+  "product_image": "images/samsung-galaxy-a10-green",
+  "network": {
+    "technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G"
+  },
+  "body": {
+    "dimensions": "6.29 x 2.93 x 0.33 in",
+    "weight": "190g"
+  },
+  "display": {
+    "displayType": "Super AMOLED, 120Hz, HDR10+",
+    "size": "6.5 inches, 101.0 cm2 (~84.8% screen-to-body ratio)",
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~407 ppi density)"
+  },
+  "platform": {
+    "os": "Android 10, One UI 2.5",
+    "chipset": "Qualcomm SM8250 Snapdragon 865 (7 nm+)"
+  },
+  "memory": {
+    "internal": "128GB 6GB RAM, 128GB 8GB RAM, 256GB 8GB RAM"
+  },
+  "camera": {
+    "main": "12MP+8MP+12MP",
+    "selfie": "32MP"
+  },
+  "battery": {
+    "batteryType": "Li-Po 4500 mAh, non-removable" 
+  },
+  "misc": {
+    "colors": "Cloud Lavender, Cloud Mint, Cloud Navy, Cloud White, Cloud Red, Cloud Orange",
+    "models": "SM-G781B, SM-G781B/DS, SM-G781U, SM-G781W"
+  }
 }
