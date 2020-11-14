@@ -1,0 +1,13 @@
+POST http://localhost:3004/api/products
+Content-type: application/json
+
+{
+  "product_SKU":  "Sam909kdl",
+  "product_name": "Samsung",
+  "product_description": "Samsung Galaxy A10 smartphone was launched in February 2019. The phone comes with a 6.20-inch touchscreen display. Samsung Galaxy A10 is powered by an octa-core Samsung Exynos 7884 processor. It comes with 2GB of RAM. The Samsung Galaxy A10 runs Android Pie and is powered by a 3400mAh battery.",
+  "quantity_per_unit": 10,
+  "unit_price": 100000,
+  "discount_price": "",
+  "available_colors": ["green", "black", "blue", "gold"],
+  "product_image": "images/samsung-galaxy-a10-green"
+}
