@@ -23,9 +23,9 @@ mongoose.connect(mongoUrl, { useNewUrlParser: true, useUnifiedTopology: true })
 // console.log(nameOfSamsung);
   
 
-app.use('/api/products', productRouter);
 app.use(bodyParser.json());
 app.use(express.json());
+app.use('/api/products', productRouter);
 
 
 app.get('/ping', (req, res) => {
