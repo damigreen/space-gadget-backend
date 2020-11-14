@@ -15,9 +15,11 @@ productRouter.post('/', async (req, res, next) => {
   try {
     const body = req.body;
 
-    const productExist = Product.findOne({ product_SKU: body.product_SKU});
+    const productExist = Product.find({ product_SKU: body.product_SKU});
     if (productExist) {
-      await res.json({ Error: "Cannot add the same product" });
+      // await res.json({ Error: "Cannot add the same product" });
+      // console.log(productExist);
+      console.log("I am here already:=================================");
     }
 
     const newProduct = await new Product({
@@ -33,7 +35,37 @@ productRouter.post('/', async (req, res, next) => {
       available_colors: body.available_colors,
       product_image: body.product_image,
       inserted_at: new Date(),
-      // updated_at:
+      updated_at: new Date(),
+      network: {
+        technology: body.network.technology
+      },
+      body: {
+        dimension: body.body.dimensions,
+        weight: body.body.weight
+      },
+      display: {
+        type: body.display.type,
+        size: body.display.size,
+        resolution: body.display.resolution
+      },
+      platform: {
+        os: body.platform.os,
+        chipset: body.platform.chipset,
+      },
+      memory: {
+        internal: body.memory.internal
+      },
+      camera: {
+        main: body.camera.main,
+        selfie: body.camera.selfie
+      },
+      battery: {
+        batteryType: body.battery.batteryType
+      },
+      misc: {
+        colors: body.misc.colors,
+        models: body.misc.models
+      }
     });
 
     await newProduct.save();
@@ -42,6 +74,6 @@ productRouter.post('/', async (req, res, next) => {
     console.log(`error ${e}`);
     next(e);
   }
-})
+});
 
 module.exports = productRouter;
