@@ -2,43 +2,43 @@ POST http://localhost:3004/api/products
 Content-type: application/json
 
 {
-  "product_SKU":  "Sam-A1-0Gr",
+  "product_SKU":  "Sam-N20-BR",
   "product_name": "Samsung",
-  "product_name": "Samsung Galaxy",
-  "product_description": "Samsung Galaxy A10 smartphone was launched in February 2019. The phone comes with a 6.20-inch touchscreen display. Samsung Galaxy A10 is powered by an octa-core Samsung Exynos 7884 processor. It comes with 2GB of RAM. The Samsung Galaxy A10 runs Android Pie and is powered by a 3400mAh battery.",
-  "quantity_per_unit": 10,
-  "unit_price": 100000,
+  "product_name": "Galaxy Note20 Ultra 5G",
+  "product_description": "It's the ultimate gaming experience that goes where you go. It's a director-grade 8K video camera. It's a multitasking computer suite. It's anything but your average smartphone. Introducing the Powerphone that forever changes how you work and play..",
+  "quantity_per_unit": 6,
+  "unit_price": 96000,
   "discount_price": "",
-  "product_color": "Green",
-  "product_image": "images/samsung-galaxy-a10-green",
+  "product_color": "Bronze",
+  "product_image": "images/samsung-galaxy-note20-bronze",
   "network": {
     "technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G"
   },
   "body": {
-    "dimensions": "6.29 x 2.93 x 0.33 in",
-    "weight": "190g"
+    "dimensions": "161.6 x 75.2 x 8.3mm",
+    "weight": "194g"
   },
   "display": {
-    "displayType": "Super AMOLED, 120Hz, HDR10+",
-    "size": "6.5 inches, 101.0 cm2 (~84.8% screen-to-body ratio)",
-    "resolution": "1080 x 2400 pixels, 20:9 ratio (~407 ppi density)"
+    "displayType": "6.7” flat FHD+ Super AMOLED Plus Infinity-O Display (2400x1080) 393 ppi HDR10+ certified",
+    "size": "6.9 inches, 116.7 cm2 (~91.7% screen-to-body ratio)",
+    "resolution": "1440 x 3088 pixels (~496 ppi density)"
   },
   "platform": {
     "os": "Android 10, One UI 2.5",
-    "chipset": "Qualcomm SM8250 Snapdragon 865 (7 nm+)"
+    "chipset": "Qualcomm SM8250 Snapdragon 865+ (7 nm+) - USA"
   },
   "memory": {
-    "internal": "128GB 6GB RAM, 128GB 8GB RAM, 256GB 8GB RAM"
+    "internal": "128GB 12GB RAM, 256GB 12GB RAM, 512GB 12GB RAM UFS 3.0"
   },
   "camera": {
-    "main": "12MP+8MP+12MP",
-    "selfie": "32MP"
+    "main": "108MP+12MP+12MP",
+    "selfie": "10MP"
   },
   "battery": {
-    "batteryType": "Li-Po 4500 mAh, non-removable" 
+    "batteryType": "Li-Ion 4500 mAh, non-removable" 
   },
   "misc": {
-    "colors": "Cloud Lavender, Cloud Mint, Cloud Navy, Cloud White, Cloud Red, Cloud Orange",
-    "models": "SM-G781B, SM-G781B/DS, SM-G781U, SM-G781W"
+    "colors": "Mystic Bronze, Mystic Black, Mystic White",
+    "models": "SM-N986B, SM-N986B/DS, SM-N986U, SM-N986U1, SM-N986W, SM-N9860"
   }
 }
