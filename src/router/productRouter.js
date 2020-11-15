@@ -26,6 +26,7 @@ productRouter.post('/', async (req, res, next) => {
       // product_id: uuidv4(),
       product_SKU:  body.product_SKU,
       product_name: body.product_name,
+      product_model: body.product_model,
       product_description: body.product_description,
       // supplier_id: "",
       // category_id: "",
