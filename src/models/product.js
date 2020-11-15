@@ -1,14 +1,15 @@
 const mongoose = require('mongoose');
+var uniqueValidator = require('mongoose-unique-validator');
 
 const productSchema = mongoose.Schema({
   product_id: String,
-  product_SKU: String,
-  product_name: String,
-  product_model: String,
+  product_SKU: { type: String, unique: true, required: true},
+  product_name: { type: String, required: true},
+  product_model: { type: String, unique: true, required: true},
   product_description: String,
   suplier_id: String,
   quantity_per_unit: Number,
-  unit_price: Number,
+  unit_price: { type: Number, required: true},
   discount_price: Number,
   product_color: String,
   product_image: String,
@@ -67,7 +68,7 @@ const productSchema = mongoose.Schema({
   // MSRP: Number,
   //  availableSize: Number,
 });
-
+productSchema.plugin(uniqueValidator);
 
 productSchema.set('toJSON', {
   transform: (document, returnedObject) => {
