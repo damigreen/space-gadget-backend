@@ -2,42 +2,42 @@ POST http://localhost:3004/api/products
 Content-type: application/json
 
 {
-  "product_SKU":  "Inf-SM5-MDBL",
+  "product_SKU":  "Inf-HOT10-MLJD",
   "product_name": "Infinix",
-  "product_model": "Infinix Smart 5",
+  "product_model": "Infinix Hot 10",
   "product_description": "We do more than hit the reset button. Before any device gets labeled Samsung Certified Pre-Owned, it gets completely taken apart and rebuilt by the same engineers who build our new phones. They replace worn out pieces, and we include the same one-year warranty our new phones come with for extra peace of mind.",
   "quantity_per_unit": 40,
   "unit_price": 44000,
   "discount_price": "",
-  "product_color": "Midnight Black",
-  "product_image": "images/samsung-infinix-note8-gray",
+  "product_color": "Moonlight Jade",
+  "product_image": "images/samsung-infinix-hot10-jade",
   "network": {
     "technology": "GSM / HSPA / LTE"
   },
   "body": {
-    "dimensions": "165.4 x 76.4 x 8.8 mm (6.51 x 3.01 x 0.35 in)",
-    "weight": "183g"
+    "dimensions": "171.1 x 77.6 x 8.9 mm (6.74 x 3.06 x 0.35 in)",
+    "weight": "195g"
   },
   "display": {
     "displayType": "IPS LCD",
-    "size": "6.6 inches, 105.2 cm2 (~83.2% screen-to-body ratio)",
-    "resolution": "720 x 1600 pixels, 20:9 ratio (~266 ppi density)"
+    "size": "6.78 inches, 109.2 cm2 (~82.2% screen-to-body ratio)",
+    "resolution": "720 x 1640 pixels (~264 ppi density)"
   },
   "platform": {
-    "os": "Android 10 (Go Editiion)",
-    "chipset": "Mediatek MT6761D Helio A20 (12 nm)"
+    "os": "Android 10, XOS 6.0",
+    "chipset": "Mediatek Helio G70 (12 nm)"
   },
   "memory": {
-    "internal": "32GB 2GB RAM, 64GB 3GB RAM"
+    "internal": "64GB 3GB RAM, 64GB 4GB RAM, 128GB 4GB RAM, 128GB 6GB RAM eMMC 5.1"
   },
   "camera": {
-    "main": "13MP",
+    "main": "16MP+2MP+2MP",
     "selfie": "8MP"
   },
   "battery": {
-    "batteryType": "Li-Po 5000 mAh, non-removable" 
+    "batteryType": "Li-Po 5200 mAh, non-removable" 
   },
   "misc": {
-    "colors": "Ocean Wave, Quetzal Cyan, Midnight Black"
+    "colors": "Obsidian Black, Amber Red, Moonlight Jade, Ocean Wave"
   }
 }
