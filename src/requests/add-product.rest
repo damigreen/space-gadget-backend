@@ -2,43 +2,42 @@ POST http://localhost:3004/api/products
 Content-type: application/json
 
 {
-  "product_SKU":  "Sam-N20-BR",
-  "product_name": "Samsung",
-  "product_name": "Galaxy Note20 Ultra 5G",
-  "product_description": "It's the ultimate gaming experience that goes where you go. It's a director-grade 8K video camera. It's a multitasking computer suite. It's anything but your average smartphone. Introducing the Powerphone that forever changes how you work and play..",
-  "quantity_per_unit": 6,
-  "unit_price": 96000,
+  "product_SKU":  "Inf-SM5-MDBL",
+  "product_name": "Infinix",
+  "product_model": "Infinix Smart 5",
+  "product_description": "We do more than hit the reset button. Before any device gets labeled Samsung Certified Pre-Owned, it gets completely taken apart and rebuilt by the same engineers who build our new phones. They replace worn out pieces, and we include the same one-year warranty our new phones come with for extra peace of mind.",
+  "quantity_per_unit": 40,
+  "unit_price": 44000,
   "discount_price": "",
-  "product_color": "Bronze",
-  "product_image": "images/samsung-galaxy-note20-bronze",
+  "product_color": "Midnight Black",
+  "product_image": "images/samsung-infinix-note8-gray",
   "network": {
-    "technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G"
+    "technology": "GSM / HSPA / LTE"
   },
   "body": {
-    "dimensions": "161.6 x 75.2 x 8.3mm",
-    "weight": "194g"
+    "dimensions": "165.4 x 76.4 x 8.8 mm (6.51 x 3.01 x 0.35 in)",
+    "weight": "183g"
   },
   "display": {
-    "displayType": "6.7” flat FHD+ Super AMOLED Plus Infinity-O Display (2400x1080) 393 ppi HDR10+ certified",
-    "size": "6.9 inches, 116.7 cm2 (~91.7% screen-to-body ratio)",
-    "resolution": "1440 x 3088 pixels (~496 ppi density)"
+    "displayType": "IPS LCD",
+    "size": "6.6 inches, 105.2 cm2 (~83.2% screen-to-body ratio)",
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~266 ppi density)"
   },
   "platform": {
-    "os": "Android 10, One UI 2.5",
-    "chipset": "Qualcomm SM8250 Snapdragon 865+ (7 nm+) - USA"
+    "os": "Android 10 (Go Editiion)",
+    "chipset": "Mediatek MT6761D Helio A20 (12 nm)"
   },
   "memory": {
-    "internal": "128GB 12GB RAM, 256GB 12GB RAM, 512GB 12GB RAM UFS 3.0"
+    "internal": "32GB 2GB RAM, 64GB 3GB RAM"
   },
   "camera": {
-    "main": "108MP+12MP+12MP",
-    "selfie": "10MP"
+    "main": "13MP",
+    "selfie": "8MP"
   },
   "battery": {
-    "batteryType": "Li-Ion 4500 mAh, non-removable" 
+    "batteryType": "Li-Po 5000 mAh, non-removable" 
   },
   "misc": {
-    "colors": "Mystic Bronze, Mystic Black, Mystic White",
-    "models": "SM-N986B, SM-N986B/DS, SM-N986U, SM-N986U1, SM-N986W, SM-N9860"
+    "colors": "Ocean Wave, Quetzal Cyan, Midnight Black"
   }
 }
