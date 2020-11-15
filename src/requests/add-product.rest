@@ -2,42 +2,42 @@ POST http://localhost:3004/api/products
 Content-type: application/json
 
 {
-  "product_SKU":  "Inf-HOT10-MLJD",
+  "product_SKU":  "Inf-S5PRO-VIO",
   "product_name": "Infinix",
-  "product_model": "Infinix Hot 10",
+  "product_model": "Infinix S5 Pro",
   "product_description": "We do more than hit the reset button. Before any device gets labeled Samsung Certified Pre-Owned, it gets completely taken apart and rebuilt by the same engineers who build our new phones. They replace worn out pieces, and we include the same one-year warranty our new phones come with for extra peace of mind.",
   "quantity_per_unit": 40,
   "unit_price": 44000,
   "discount_price": "",
-  "product_color": "Moonlight Jade",
+  "product_color": "Violet",
   "product_image": "images/samsung-infinix-hot10-jade",
   "network": {
     "technology": "GSM / HSPA / LTE"
   },
   "body": {
-    "dimensions": "171.1 x 77.6 x 8.9 mm (6.74 x 3.06 x 0.35 in)",
+    "dimensions": "162.5 x 76.9 x 9 mm (6.40 x 3.03 x 0.35 in)",
     "weight": "195g"
   },
   "display": {
     "displayType": "IPS LCD",
-    "size": "6.78 inches, 109.2 cm2 (~82.2% screen-to-body ratio)",
-    "resolution": "720 x 1640 pixels (~264 ppi density)"
+    "size": "6.53 inches, 104.7 cm2 (~83.8% screen-to-body ratio)",
+    "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~395 ppi density)"
   },
   "platform": {
-    "os": "Android 10, XOS 6.0",
-    "chipset": "Mediatek Helio G70 (12 nm)"
+    "os": "Android 10",
+    "chipset": "Mediatek MT6765 Helio P35 (12nm)"
   },
   "memory": {
-    "internal": "64GB 3GB RAM, 64GB 4GB RAM, 128GB 4GB RAM, 128GB 6GB RAM eMMC 5.1"
+    "internal": "64GB 4GB RAM, 128GB 6GB RAM eMMC 5.1"
   },
   "camera": {
-    "main": "16MP+2MP+2MP",
-    "selfie": "8MP"
+    "main": "48MP+2MP",
+    "selfie": "16MP"
   },
   "battery": {
-    "batteryType": "Li-Po 5200 mAh, non-removable" 
+    "batteryType": "Li-Po 4000 mAh, non-removable" 
   },
   "misc": {
-    "colors": "Obsidian Black, Amber Red, Moonlight Jade, Ocean Wave"
+    "colors": "Nebula Black, Quetzal Cyan, Violet"
   }
 }
