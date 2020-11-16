@@ -2,43 +2,43 @@ POST http://localhost:3004/api/products
 Content-type: application/json
 
 {
-  "product_SKU":  "Apl-IPhne11-purp",
+  "product_SKU":  "Apl-IP12PRMX-GRT",
   "product_name": "Apple",
-  "product_model": "Apple iPhone 11",
+  "product_model": "Apple iPhone 12 Pro Max",
   "product_description": "We do more than hit the reset button. Before any device gets labeled Samsung Certified Pre-Owned, it gets completely taken apart and rebuilt by the same engineers who build our new phones. They replace worn out pieces, and we include the same one-year warranty our new phones come with for extra peace of mind.",
-  "quantity_per_unit": 19,
-  "unit_price": 105000,
+  "quantity_per_unit": 10,
+  "unit_price": 417000,
   "discount_price": "",
-  "product_color": "Purple",
-  "product_image": "images/samsung-Apple-iphone11-purple",
+  "product_color": "Graphite",
+  "product_image": "images/samsung-Apple-iphone12-promax-graphite",
   "network": {
-    "technology": "GSM / CDMA / HSPA / EVDO / LTE"
+    "technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G"
   },
   "body": {
-    "dimensions": "150.9 x 75.7 x 8.3 mm (5.94 x 2.98 x 0.33 in)",
-    "weight": "194 g (5.22 oz)"
+    "dimensions": "160.8 x 78.1 x 7.4 mm (6.33 x 3.07 x 0.29 in)",
+    "weight": "228 g (8.04 oz)"
   },
   "display": {
-    "displayType": "Liquid Retina IPS LCD, 625 nits (typ)",
-    "size": "6.1 inches, 90.3 cm2 (~79.0% screen-to-body ratio)",
-    "resolution": "828 x 1792 pixels, 19.5:9 ratio (~326 ppi density)"
+    "displayType": "Super Retina XDR OLED, HDR10, 800 nits (typ), 1200 nits (peak)",
+    "size": "6.7 inches, 109.8 cm2 (~87.4% screen-to-body ratio)",
+    "resolution": "1284 x 2778 pixels, 19.5:9 ratio (~458 ppi density)"
   },
   "platform": {
-    "os": "iOS 13, upgradable to iOS 14.2",
-    "chipset": "Apple A13 Bionic (7 nm+)"
+    "os": "iOS 14.1, upgradable to iOS 14.2",
+    "chipset": "Apple A14 Bionic (5 nm)"
   },
   "memory": {
-    "internal": "64GB 4GB RAM, 128GB 4GB RAM, 256GB 4GB RAM NVMe"
+    "internal": "128GB 6GB RAM, 256GB 6GB RAM, 512GB 6GB RAM NVMe"
   },
   "camera": {
-    "main": "12MP+12MP",
-    "selfie": "7MP+12MP"
+    "main": "12MP+12MP+12MP",
+    "selfie": "12MP"
   },
   "battery": {
-    "batteryType": "Li-Ion 3110 mAh, non-removable (11.91 Wh)" 
+    "batteryType": "Li-Ion 3687 mAh, non-removable (14.13 Wh)" 
   },
   "misc": {
-    "colors": "Black, Green, Yellow, Purple, Red, White",
-    "models": "A2221, A2111, A2223"
+    "colors": "Silver, Graphite, Gold, Pacific Blue",
+    "models": "A2411, A2342, A2410, A2412"
   }
 }
