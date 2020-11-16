@@ -2,43 +2,43 @@ POST http://localhost:3004/api/products
 Content-type: application/json
 
 {
-  "product_SKU":  "Apl-IPhnX-Slv",
+  "product_SKU":  "Apl-IP12-Slv",
   "product_name": "Apple",
-  "product_model": "Apple iPhone X",
+  "product_model": "Apple iPhone 12",
   "product_description": "We do more than hit the reset button. Before any device gets labeled Samsung Certified Pre-Owned, it gets completely taken apart and rebuilt by the same engineers who build our new phones. They replace worn out pieces, and we include the same one-year warranty our new phones come with for extra peace of mind.",
-  "quantity_per_unit": 42,
-  "unit_price": 36500,
+  "quantity_per_unit": 8,
+  "unit_price": 315000,
   "discount_price": "",
-  "product_color": "Silver",
-  "product_image": "images/samsung-Apple-iphonex-silver",
+  "product_color": "Green",
+  "product_image": "images/samsung-Apple-iphone12-green",
   "network": {
-    "technology": "GSM / HSPA / LTE"
+    "technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G"
   },
   "body": {
-    "dimensions": "143.6 x 70.9 x 7.7 mm (5.65 x 2.79 x 0.30 in)",
-    "weight": "174 g (6.14 oz)"
+    "dimensions": "146.7 x 71.5 x 7.4 mm (5.78 x 2.81 x 0.29 in)",
+    "weight": "164 g (5.78 oz)"
   },
   "display": {
-    "displayType": "IPS LCD, 480 nits (peak)",
-    "size": "6.0 inches, 109.8 cm2 (~82.7% screen-to-body ratio)",
-    "resolution": "720 x 1640 pixels (~263 ppi density)"
+    "displayType": "Super Retina XDR OLED, HDR10, 625 nits (typ), 1200 nits (peak)",
+    "size": "6.1 inches, 90.2 cm2 (~86.0% screen-to-body ratio)",
+    "resolution": "1170 x 2532 pixels, 19.5:9 ratio (~460 ppi density)"
   },
   "platform": {
-    "os": "iOS 11.1.1, upgradable to iOS 14.2",
-    "chipset": "Apple A11 Bionic (10 nm)"
+    "os": "iOS 14.1, upgradable to iOS 14.2",
+    "chipset": "Apple A14 Bionic (5 nm)"
   },
   "memory": {
-    "internal": "64GB 3GB RAM, 256GB 3GB RAM NVMe"
+    "internal": "64GB 4GB RAM, 128GB 4GB RAM, 256GB 4GB RAM"
   },
   "camera": {
     "main": "12MP+12MP",
-    "selfie": "7MP"
+    "selfie": "12MP"
   },
   "battery": {
-    "batteryType": "Li-Ion 2716 mAh, non-removable (10.35 Wh)" 
+    "batteryType": "Li-Ion 2815 mAh, non-removable (10.78 Wh)" 
   },
   "misc": {
-    "colors": "Space Gray, Silver",
-    "models": "A1865, A1901, A1902, A1903"
+    "colors": "Black, White, Red, Green, Blue",
+    "models": "A2403, A2172, A2402, A2404"
   }
 }
