@@ -2,42 +2,42 @@ POST http://localhost:3004/api/products
 Content-type: application/json
 
 {
-  "product_SKU":  "Inf-S5PRO-VIO",
+  "product_SKU":  "Inf-HOT9-OCWV",
   "product_name": "Infinix",
-  "product_model": "Infinix S5 Pro",
+  "product_model": "Infinix Hot 9",
   "product_description": "We do more than hit the reset button. Before any device gets labeled Samsung Certified Pre-Owned, it gets completely taken apart and rebuilt by the same engineers who build our new phones. They replace worn out pieces, and we include the same one-year warranty our new phones come with for extra peace of mind.",
-  "quantity_per_unit": 40,
-  "unit_price": 44000,
+  "quantity_per_unit": 42,
+  "unit_price": 55000,
   "discount_price": "",
-  "product_color": "Violet",
-  "product_image": "images/samsung-infinix-hot10-jade",
+  "product_color": "Ocean Wave",
+  "product_image": "images/samsung-infinix-hot9-ocean-wave",
   "network": {
     "technology": "GSM / HSPA / LTE"
   },
   "body": {
-    "dimensions": "162.5 x 76.9 x 9 mm (6.40 x 3.03 x 0.35 in)",
-    "weight": "195g"
+    "dimensions": "165.4 x 76.8 x 8.8 mm (6.51 x 3.02 x 0.35 in)",
+    "weight": "185g"
   },
   "display": {
     "displayType": "IPS LCD",
-    "size": "6.53 inches, 104.7 cm2 (~83.8% screen-to-body ratio)",
-    "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~395 ppi density)"
+    "size": "6.6 inches, 105.2 cm2 (~82.8% screen-to-body ratio)",
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~266 ppi density)"
   },
   "platform": {
-    "os": "Android 10",
-    "chipset": "Mediatek MT6765 Helio P35 (12nm)"
+    "os": "Android 10 XOS 6.0",
+    "chipset": "MediaTek Helio A25 (12 nm)"
   },
   "memory": {
-    "internal": "64GB 4GB RAM, 128GB 6GB RAM eMMC 5.1"
+    "internal": "32GB 2GB RAM, 32GB 3GB RAM, 64GB 3GB RAM, 64GB 4GB RAM, 128GB 4GB RAM"
   },
   "camera": {
-    "main": "48MP+2MP",
-    "selfie": "16MP"
+    "main": "13MP+2MP+2MP",
+    "selfie": "8MP"
   },
   "battery": {
-    "batteryType": "Li-Po 4000 mAh, non-removable" 
+    "batteryType": " 	Li-Po 5000 mAh, non-removable" 
   },
   "misc": {
-    "colors": "Nebula Black, Quetzal Cyan, Violet"
+    "colors": "Midnight Black, Quetzal Cyan, Violet, Ocean Wave"
   }
 }
