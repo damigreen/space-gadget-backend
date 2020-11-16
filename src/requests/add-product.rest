@@ -2,43 +2,43 @@ POST http://localhost:3004/api/products
 Content-type: application/json
 
 {
-  "product_SKU":  "Apl-IP12PRMX-GRT",
+  "product_SKU":  "Apl-IP8-GLD",
   "product_name": "Apple",
-  "product_model": "Apple iPhone 12 Pro Max",
+  "product_model": "Apple iPhone 8",
   "product_description": "We do more than hit the reset button. Before any device gets labeled Samsung Certified Pre-Owned, it gets completely taken apart and rebuilt by the same engineers who build our new phones. They replace worn out pieces, and we include the same one-year warranty our new phones come with for extra peace of mind.",
-  "quantity_per_unit": 10,
-  "unit_price": 417000,
+  "quantity_per_unit": 30,
+  "unit_price": 117000,
   "discount_price": "",
-  "product_color": "Graphite",
-  "product_image": "images/samsung-Apple-iphone12-promax-graphite",
+  "product_color": "Gold",
+  "product_image": "images/samsung-Apple-iphone8-gold",
   "network": {
-    "technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G"
+    "technology": "GSM / HSPA / LTE"
   },
   "body": {
-    "dimensions": "160.8 x 78.1 x 7.4 mm (6.33 x 3.07 x 0.29 in)",
-    "weight": "228 g (8.04 oz)"
+    "dimensions": "158.4 x 78.1 x 7.5 mm (6.24 x 3.07 x 0.30 in)",
+    "weight": "202 g (7.13 oz)"
   },
   "display": {
-    "displayType": "Super Retina XDR OLED, HDR10, 800 nits (typ), 1200 nits (peak)",
-    "size": "6.7 inches, 109.8 cm2 (~87.4% screen-to-body ratio)",
-    "resolution": "1284 x 2778 pixels, 19.5:9 ratio (~458 ppi density)"
+    "displayType": "Retina IPS LCD, 625 nits (typ)",
+    "size": "5.5 inches, 83.4 cm2 (~67.4% screen-to-body ratio)",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)"
   },
   "platform": {
-    "os": "iOS 14.1, upgradable to iOS 14.2",
-    "chipset": "Apple A14 Bionic (5 nm)"
+    "os": "iOS 11, upgradable to iOS 14.2",
+    "chipset": "Apple A11 Bionic (10 nm)"
   },
   "memory": {
-    "internal": "128GB 6GB RAM, 256GB 6GB RAM, 512GB 6GB RAM NVMe"
+    "internal": "64GB 3GB RAM, 256GB 3GB RAM NVMe"
   },
   "camera": {
-    "main": "12MP+12MP+12MP",
-    "selfie": "12MP"
+    "main": "12MP+12MP",
+    "selfie": "7MP"
   },
   "battery": {
-    "batteryType": "Li-Ion 3687 mAh, non-removable (14.13 Wh)" 
+    "batteryType": "Li-Ion 2691 mAh, non-removable (10.28 Wh)" 
   },
   "misc": {
-    "colors": "Silver, Graphite, Gold, Pacific Blue",
-    "models": "A2411, A2342, A2410, A2412"
+    "colors": "Gold, Space Gray, Silver, Red",
+    "models": "	A1864, A1897, A1898"
   }
 }
