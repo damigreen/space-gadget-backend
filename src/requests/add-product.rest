@@ -2,15 +2,15 @@ POST http://localhost:3004/api/products
 Content-type: application/json
 
 {
-  "product_SKU":  "Tec-Pou4Pro-MstGr",
+  "product_SKU":  "Tec-Pou4-MstGr",
   "product_name": "Tecno",
-  "product_model": "Tecno Pouvoir 4 Pro",
+  "product_model": "Tecno Pouvoir 4",
   "product_description": "We do more than hit the reset button. Before any device gets labeled Samsung Certified Pre-Owned, it gets completely taken apart and rebuilt by the same engineers who build our new phones. They replace worn out pieces, and we include the same one-year warranty our new phones come with for extra peace of mind.",
   "quantity_per_unit": 25,
-  "unit_price": 57000,
+  "unit_price": 52000,
   "discount_price": "",
-  "product_color": "Misty Grey",
-  "product_image": "images/samsung-Tecno-pouvoir4-pro-misty-grey",
+  "product_color": "Ice Jadeite",
+  "product_image": "images/samsung-Tecno-pouvoir4-misty-grey",
   "network": {
     "technology": "GSM / HSPA / LTE"
   },
@@ -24,20 +24,21 @@ Content-type: application/json
     "resolution": "720 x 1640 pixels (~256 ppi density)"
   },
   "platform": {
-    "os": " 	Android 10, HIOS 6.0",
-    "chipset": "Mediatek MT6762 Helio P22 (12 nm)"
+    "os": "Android 10, HIOS 6.0",
+    "chipset": "Mediatek MT6761 Helio A22 (12 nm)"
   },
   "memory": {
-    "internal": "64GB 4GB RAM, 128GB 6GB RAM"
+    "internal": "32GB 3GB RAM"
   },
   "camera": {
-    "main": "16MP+5MP+2MP",
-    "selfie": "16MP"
+    "main": "13MP+2MP+2MP",
+    "selfie": "8MP"
   },
   "battery": {
     "batteryType": "Li-Po 6000 mAh, non-removable" 
   },
   "misc": {
-    "colors": "Ice Jadeite, Misty Grey, Fascinating Purple"
+    "colors": "Cosmic Shine, Ice Jadeite, Fascinating Purple",
+    "models": "LC7"
   }
 }
