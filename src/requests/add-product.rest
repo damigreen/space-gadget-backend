@@ -2,42 +2,42 @@ POST http://localhost:3004/api/products
 Content-type: application/json
 
 {
-  "product_SKU":  "Tec-Pou4-MstGr",
+  "product_SKU":  "Tec-Pop4-SpPur",
   "product_name": "Tecno",
-  "product_model": "Tecno Pova",
+  "product_model": "Tecno POP 4",
   "product_description": "We do more than hit the reset button. Before any device gets labeled Samsung Certified Pre-Owned, it gets completely taken apart and rebuilt by the same engineers who build our new phones. They replace worn out pieces, and we include the same one-year warranty our new phones come with for extra peace of mind.",
-  "quantity_per_unit": 23,
-  "unit_price": 52000,
+  "quantity_per_unit": 42,
+  "unit_price": 36500,
   "discount_price": "",
-  "product_color": "Speed Purple",
-  "product_image": "images/samsung-Tecno-pova-speed-purple",
+  "product_color": "Green",
+  "product_image": "images/samsung-Tecno-pop4-green",
   "network": {
-    "technology": "GSM / HSPA / LTE"
+    "technology": "GSM / HSPA"
   },
   "body": {
-    "dimensions": "171.2 x 77.6 x 9.4 mm (6.74 x 3.06 x 0.37 in)",
-    "weight": "181g"
+    "dimensions": "144.0 x 73.8 x 10.6 mm",
+    "weight": "183g"
   },
   "display": {
     "displayType": "IPS LCD, 480 nits (peak)",
-    "size": "6.8 inches, 109.8 cm2 (~82.7% screen-to-body ratio)",
+    "size": "6.0 inches, 109.8 cm2 (~82.7% screen-to-body ratio)",
     "resolution": "720 x 1640 pixels (~263 ppi density)"
   },
   "platform": {
-    "os": "Android 10, HIOS 7.0",
+    "os": "Android 10, Go Edition",
     "chipset": "Mediatek Helio G80 (12 nm)"
   },
   "memory": {
     "internal": "128GB 6GB RAM"
   },
   "camera": {
-    "main": "13MP+2MP+2MP",
-    "selfie": "8MP"
+    "main": "8MP",
+    "selfie": "5MP"
   },
   "battery": {
-    "batteryType": "Li-Po 6000 mAh, non-removable" 
+    "batteryType": "Li-Po 5000 mAh, non-removable" 
   },
   "misc": {
-    "colors": " 	Magic Blue, Speed Purple, Dazzle Black",
+    "colors": "Green, blue, cosmic radiance"
   }
 }
