@@ -2,21 +2,21 @@ POST http://localhost:3004/api/products
 Content-type: application/json
 
 {
-  "product_SKU":  "Tec-Pop4-SpPur",
-  "product_name": "Tecno",
-  "product_model": "Tecno POP 4",
+  "product_SKU":  "Apl-IPhnX-Slv",
+  "product_name": "Apple",
+  "product_model": "Apple iPhone X",
   "product_description": "We do more than hit the reset button. Before any device gets labeled Samsung Certified Pre-Owned, it gets completely taken apart and rebuilt by the same engineers who build our new phones. They replace worn out pieces, and we include the same one-year warranty our new phones come with for extra peace of mind.",
   "quantity_per_unit": 42,
   "unit_price": 36500,
   "discount_price": "",
-  "product_color": "Green",
-  "product_image": "images/samsung-Tecno-pop4-green",
+  "product_color": "Silver",
+  "product_image": "images/samsung-Apple-iphonex-silver",
   "network": {
-    "technology": "GSM / HSPA"
+    "technology": "GSM / HSPA / LTE"
   },
   "body": {
-    "dimensions": "144.0 x 73.8 x 10.6 mm",
-    "weight": "183g"
+    "dimensions": "143.6 x 70.9 x 7.7 mm (5.65 x 2.79 x 0.30 in)",
+    "weight": "174 g (6.14 oz)"
   },
   "display": {
     "displayType": "IPS LCD, 480 nits (peak)",
@@ -24,20 +24,21 @@ Content-type: application/json
     "resolution": "720 x 1640 pixels (~263 ppi density)"
   },
   "platform": {
-    "os": "Android 10, Go Edition",
-    "chipset": "Mediatek Helio G80 (12 nm)"
+    "os": "iOS 11.1.1, upgradable to iOS 14.2",
+    "chipset": "Apple A11 Bionic (10 nm)"
   },
   "memory": {
-    "internal": "128GB 6GB RAM"
+    "internal": "64GB 3GB RAM, 256GB 3GB RAM NVMe"
   },
   "camera": {
-    "main": "8MP",
-    "selfie": "5MP"
+    "main": "12MP+12MP",
+    "selfie": "7MP"
   },
   "battery": {
-    "batteryType": "Li-Po 5000 mAh, non-removable" 
+    "batteryType": "Li-Ion 2716 mAh, non-removable (10.35 Wh)" 
   },
   "misc": {
-    "colors": "Green, blue, cosmic radiance"
+    "colors": "Space Gray, Silver",
+    "models": "A1865, A1901, A1902, A1903"
   }
 }
