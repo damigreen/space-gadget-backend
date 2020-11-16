@@ -2,43 +2,43 @@ POST http://localhost:3004/api/products
 Content-type: application/json
 
 {
-  "product_SKU":  "Apl-IP12-Slv",
+  "product_SKU":  "Apl-IPXR-Red",
   "product_name": "Apple",
-  "product_model": "Apple iPhone 12",
+  "product_model": "Apple iPhone XR",
   "product_description": "We do more than hit the reset button. Before any device gets labeled Samsung Certified Pre-Owned, it gets completely taken apart and rebuilt by the same engineers who build our new phones. They replace worn out pieces, and we include the same one-year warranty our new phones come with for extra peace of mind.",
-  "quantity_per_unit": 8,
-  "unit_price": 315000,
+  "quantity_per_unit": 15,
+  "unit_price": 145000,
   "discount_price": "",
-  "product_color": "Green",
+  "product_color": "Red",
   "product_image": "images/samsung-Apple-iphone12-green",
   "network": {
-    "technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G"
+    "technology": "GSM / CDMA / HSPA / EVDO / LTE"
   },
   "body": {
-    "dimensions": "146.7 x 71.5 x 7.4 mm (5.78 x 2.81 x 0.29 in)",
-    "weight": "164 g (5.78 oz)"
+    "dimensions": "150.9 x 75.7 x 8.3 mm (5.94 x 2.98 x 0.33 in)",
+    "weight": "194 g (5.78 oz)"
   },
   "display": {
-    "displayType": "Super Retina XDR OLED, HDR10, 625 nits (typ), 1200 nits (peak)",
-    "size": "6.1 inches, 90.2 cm2 (~86.0% screen-to-body ratio)",
-    "resolution": "1170 x 2532 pixels, 19.5:9 ratio (~460 ppi density)"
+    "displayType": "Liquid Retina IPS LCD, 625 nits (typ)",
+    "size": "6.1 inches, 90.3 cm2 (~79.0% screen-to-body ratio)",
+    "resolution": "828 x 1792 pixels, 19.5:9 ratio (~326 ppi density)"
   },
   "platform": {
-    "os": "iOS 14.1, upgradable to iOS 14.2",
-    "chipset": "Apple A14 Bionic (5 nm)"
+    "os": "iOS 12, upgradable to iOS 14.2",
+    "chipset": "Apple A12 Bionic (7 nm)"
   },
   "memory": {
-    "internal": "64GB 4GB RAM, 128GB 4GB RAM, 256GB 4GB RAM"
+    "internal": "64GB 3GB RAM, 128GB 3GB RAM, 256GB 3GB RAM"
   },
   "camera": {
-    "main": "12MP+12MP",
-    "selfie": "12MP"
+    "main": "12MP",
+    "selfie": "7MP"
   },
   "battery": {
-    "batteryType": "Li-Ion 2815 mAh, non-removable (10.78 Wh)" 
+    "batteryType": "Li-Ion 2942 mAh, non-removable (11.16 Wh)" 
   },
   "misc": {
-    "colors": "Black, White, Red, Green, Blue",
-    "models": "A2403, A2172, A2402, A2404"
+    "colors": "Black, Red, Yellow, Blue, Coral, White",
+    "models": "A2105, A1984, A2107, A2108, A2106"
   }
 }
