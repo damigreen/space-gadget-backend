@@ -2,42 +2,42 @@ POST http://localhost:3004/api/products
 Content-type: application/json
 
 {
-  "product_SKU":  "Inf-HOT7PR-QUCY",
-  "product_name": "Infinix",
-  "product_model": "Infinix Hot 7 Pro",
+  "product_SKU":  "Tec-Spa5-SpOr",
+  "product_name": "Tecno",
+  "product_model": "Tecno Spark 5",
   "product_description": "We do more than hit the reset button. Before any device gets labeled Samsung Certified Pre-Owned, it gets completely taken apart and rebuilt by the same engineers who build our new phones. They replace worn out pieces, and we include the same one-year warranty our new phones come with for extra peace of mind.",
-  "quantity_per_unit": 17,
-  "unit_price": 58000,
+  "quantity_per_unit": 25,
+  "unit_price": 57000,
   "discount_price": "",
-  "product_color": "Aqua Blue",
-  "product_image": "images/samsung-infinix-hot7pro-aqua-blue",
+  "product_color": "Spark Orange",
+  "product_image": "images/samsung-Tecno-spark5-spark-orange",
   "network": {
     "technology": "GSM / HSPA / LTE"
   },
   "body": {
-    "dimensions": "155 x 74.8 x 8 mm (6.10 x 2.94 x 0.31 in)",
-    "weight": "165g"
+    "dimensions": "164.7 x 76.3 x 8.8 mm (6.48 x 3.00 x 0.35 in)",
+    "weight": "191g"
   },
   "display": {
     "displayType": "IPS LCD",
-    "size": "6.2 inches, 95.9 cm2 (~82.8% screen-to-body ratio)",
-    "resolution": "720 x 1520 pixels, 19:9 ratio (~271 ppi density)"
+    "size": "6.6 inches, 105.2 cm2 (~83.7% screen-to-body ratio)",
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~266 ppi density)"
   },
   "platform": {
-    "os": "Android 9.0 (Pie)",
-    "chipset": "Mediatek MT6757T Helio P25 (16 nm) - 32+2 GB"
+    "os": "Android 10, HIOS 6.1",
+    "chipset": "Mediatek MT6761 Helio A22 (12 nm)"
   },
   "memory": {
-    "internal": "32GB 2GB RAM, 32GB 3GB RAM, 64GB 6GB RAM"
+    "internal": "32GB 2GB RAM"
   },
   "camera": {
-    "main": "13MP+2MP",
-    "selfie": "13MP+2MP"
+    "main": "13MP+2MP+2MP",
+    "selfie": "8MP"
   },
   "battery": {
-    "batteryType": "Li-Po 4000 mAh, non-removable" 
+    "batteryType": "Li-Po 5000 mAh, non-removable" 
   },
   "misc": {
-    "colors": "Midnight Black, Mocha Brown, Bordeaux Red, Aqua Blue"
+    "colors": "Ice Jadeite, Spark Orange, Vacation Blue, Misty Grey"
   }
 }
