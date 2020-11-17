@@ -2,43 +2,43 @@ POST http://localhost:3004/api/products
 Content-type: application/json
 
 {
-  "product_SKU":  "Apl-IP8-GLD",
+  "product_SKU":  "AplIpad-IPAIR20-SPCGRY",
   "product_name": "Apple",
-  "product_model": "Apple iPhone 8",
+  "product_model": "Apple iPad Air (2020)",
   "product_description": "We do more than hit the reset button. Before any device gets labeled Samsung Certified Pre-Owned, it gets completely taken apart and rebuilt by the same engineers who build our new phones. They replace worn out pieces, and we include the same one-year warranty our new phones come with for extra peace of mind.",
-  "quantity_per_unit": 30,
-  "unit_price": 117000,
+  "quantity_per_unit": 17,
+  "unit_price": 370000,
   "discount_price": "",
-  "product_color": "Gold",
-  "product_image": "images/samsung-Apple-iphone8-gold",
+  "product_color": "Space Gray",
+  "product_image": "images/samsung-Apple-ipad-air20-gold",
   "network": {
     "technology": "GSM / HSPA / LTE"
   },
   "body": {
-    "dimensions": "158.4 x 78.1 x 7.5 mm (6.24 x 3.07 x 0.30 in)",
-    "weight": "202 g (7.13 oz)"
+    "dimensions": "247.6 x 178.5 x 6.1 mm (9.75 x 7.03 x 0.24 in)",
+    "weight": "	458 g (Wi-Fi) / 460 g (3G/LTE) (1.01 lb)"
   },
   "display": {
-    "displayType": "Retina IPS LCD, 625 nits (typ)",
-    "size": "5.5 inches, 83.4 cm2 (~67.4% screen-to-body ratio)",
-    "resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)"
+    "displayType": "Liquid Retina IPS LCD, 500 nits (typ)",
+    "size": "10.9 inches, 359.2 cm2 (~81.3% screen-to-body ratio)",
+    "resolution": "1640 x 2360 pixels (~264 ppi density)"
   },
   "platform": {
-    "os": "iOS 11, upgradable to iOS 14.2",
-    "chipset": "Apple A11 Bionic (10 nm)"
+    "os": "iPadOS 14.1, upgradable to iPadOS 14.2",
+    "chipset": "Apple A14 Bionic (5 nm)"
   },
   "memory": {
-    "internal": "64GB 3GB RAM, 256GB 3GB RAM NVMe"
+    "internal": "64GB, 256GB"
   },
   "camera": {
-    "main": "12MP+12MP",
+    "main": "12MP",
     "selfie": "7MP"
   },
   "battery": {
-    "batteryType": "Li-Ion 2691 mAh, non-removable (10.28 Wh)" 
+    "batteryType": "Li-Po, non-removable (28.6 Wh)" 
   },
   "misc": {
-    "colors": "Gold, Space Gray, Silver, Red",
-    "models": "	A1864, A1897, A1898"
+    "colors": "Space Gray, Silver, Rose Gold, Green, Sky Blue",
+    "models": "A2324, A2072"
   }
 }
