@@ -2,43 +2,43 @@ POST http://localhost:3004/api/products
 Content-type: application/json
 
 {
-  "product_SKU":  "AplIpad-IPAIR2-GD",
+  "product_SKU":  "AplIpad-IPAPRO11-SV",
   "product_name": "Apple",
-  "product_model": "Apple iPad Air2",
+  "product_model": "Apple iPad Pro 11 (2020)",
   "product_description": "We do more than hit the reset button. Before any device gets labeled Samsung Certified Pre-Owned, it gets completely taken apart and rebuilt by the same engineers who build our new phones. They replace worn out pieces, and we include the same one-year warranty our new phones come with for extra peace of mind.",
-  "quantity_per_unit": 21,
-  "unit_price": 119500,
+  "quantity_per_unit": 19,
+  "unit_price": 363000,
   "discount_price": "",
-  "product_color": "Gold",
-  "product_image": "images/samsung-Apple-ipad-air2-gold",
+  "product_color": "Silver",
+  "product_image": "images/samsung-Apple-ipad-pro11-silver",
   "network": {
-    "technology": "GSM / HSPA / LTE"
+    "technology": "GSM / CDMA / HSPA / EVDO / LTE"
   },
   "body": {
-    "dimensions": "240 x 169.5 x 6.1 mm (9.45 x 6.67 x 0.24 in)",
-    "weight": "437 g (Wi-Fi) / 444 g (3G/LTE) (15.41 oz)"
+    "dimensions": "247.6 x 178.5 x 5.9 mm (9.75 x 7.03 x 0.23 in)",
+    "weight": "471 g (Wi-Fi), 473 g (LTE) (1.04 lb)"
   },
   "display": {
-    "displayType": "IPS LCD",
-    "size": "9.7 inches, 291.4 cm2 (~71.6% screen-to-body ratio)",
-    "resolution": "1536 x 2048 pixels, 4:3 ratio (~264 ppi density)"
+    "displayType": "IPS LCD, 120Hz, 600 nits (typ)",
+    "size": "11.0 inches, 366.5 cm2 (~82.9% screen-to-body ratio)",
+    "resolution": "1668 x 2388 pixels (~265 ppi density)"
   },
   "platform": {
-    "os": "iOS 8.1, upgradable to iPadOS 14.2",
-    "chipset": "Apple A8X (20 nm)"
+    "os": "iPadOS 13.4, upgradable to iPadOS 14.2",
+    "chipset": "Apple A12Z Bionic"
   },
   "memory": {
-    "internal": "16GB 2GB RAM, 32GB 2GB RAM, 64GB 2GB RAM, 128GB 2GB RAM"
+    "internal": "128GB 6GB RAM, 256GB 6GB RAM, 512GB 6GB RAM, 1TB 6GB RAM"
   },
   "camera": {
-    "main": "12MP",
+    "main": "12MP+10MP",
     "selfie": "7MP"
   },
   "battery": {
-    "batteryType": "Li-Po 7340 mAh, non-removable (27.62 Wh)" 
+    "batteryType": "Li-Po (28.65 Wh)" 
   },
   "misc": {
     "colors": "Space Gray, Silver, Gold",
-    "models": "A1566, A1567"
+    "models": "A2068, A2230, A2228, A2231"
   }
 }
