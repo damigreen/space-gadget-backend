@@ -2,43 +2,43 @@ POST http://localhost:3004/api/products
 Content-type: application/json
 
 {
-  "product_SKU":  "AplIpad-IPAPRO11-SV",
+  "product_SKU":  "AplIpad-IPAMIN-GLD",
   "product_name": "Apple",
-  "product_model": "Apple iPad Pro 11 (2020)",
+  "product_model": "Apple iPad mini (2019)",
   "product_description": "We do more than hit the reset button. Before any device gets labeled Samsung Certified Pre-Owned, it gets completely taken apart and rebuilt by the same engineers who build our new phones. They replace worn out pieces, and we include the same one-year warranty our new phones come with for extra peace of mind.",
   "quantity_per_unit": 19,
-  "unit_price": 363000,
+  "unit_price": 204000,
   "discount_price": "",
-  "product_color": "Silver",
-  "product_image": "images/samsung-Apple-ipad-pro11-silver",
+  "product_color": "Gold",
+  "product_image": "images/samsung-Apple-ipad-mini-gold",
   "network": {
-    "technology": "GSM / CDMA / HSPA / EVDO / LTE"
+    "technology": "GSM / HSPA/ LTE"
   },
   "body": {
-    "dimensions": "247.6 x 178.5 x 5.9 mm (9.75 x 7.03 x 0.23 in)",
-    "weight": "471 g (Wi-Fi), 473 g (LTE) (1.04 lb)"
+    "dimensions": "203.2 x 134.8 x 6.1 mm (8.0 x 5.31 x 0.24 in)",
+    "weight": "300.5 g (Wi-Fi) / 308.2 g (3G/LTE) (10.86 oz)"
   },
   "display": {
-    "displayType": "IPS LCD, 120Hz, 600 nits (typ)",
-    "size": "11.0 inches, 366.5 cm2 (~82.9% screen-to-body ratio)",
-    "resolution": "1668 x 2388 pixels (~265 ppi density)"
+    "displayType": "IPS LCD",
+    "size": "7.9 inches, 193.3 cm2 (~70.6% screen-to-body ratio)",
+    "resolution": "1536 x 2048 pixels, 4:3 ratio (~324 ppi density)"
   },
   "platform": {
-    "os": "iPadOS 13.4, upgradable to iPadOS 14.2",
-    "chipset": "Apple A12Z Bionic"
+    "os": "iOS 12.1.3, upgradable to iPadOS 14.2",
+    "chipset": "Apple A12 Bionic"
   },
   "memory": {
-    "internal": "128GB 6GB RAM, 256GB 6GB RAM, 512GB 6GB RAM, 1TB 6GB RAM"
+    "internal": "64GB 3GB RAM, 256GB 3GB RAM"
   },
   "camera": {
-    "main": "12MP+10MP",
+    "main": "8MP",
     "selfie": "7MP"
   },
   "battery": {
-    "batteryType": "Li-Po (28.65 Wh)" 
+    "batteryType": "Li-Ion 5124 mAh, non-removable (19.1 Wh)" 
   },
   "misc": {
     "colors": "Space Gray, Silver, Gold",
-    "models": "A2068, A2230, A2228, A2231"
+    "models": "A2126, A2124, A2133, A2125"
   }
 }
