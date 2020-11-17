@@ -2,43 +2,43 @@ POST http://localhost:3004/api/products
 Content-type: application/json
 
 {
-  "product_SKU":  "AplIpad-IPA102-SLV",
+  "product_SKU":  "AplIpad-IPAIR2-GD",
   "product_name": "Apple",
-  "product_model": "Apple iPad 10.2 (2020)",
+  "product_model": "Apple iPad Air2",
   "product_description": "We do more than hit the reset button. Before any device gets labeled Samsung Certified Pre-Owned, it gets completely taken apart and rebuilt by the same engineers who build our new phones. They replace worn out pieces, and we include the same one-year warranty our new phones come with for extra peace of mind.",
-  "quantity_per_unit": 27,
-  "unit_price": 370000,
+  "quantity_per_unit": 21,
+  "unit_price": 119500,
   "discount_price": "",
-  "product_color": "Silver",
-  "product_image": "images/samsung-Apple-ipad-102-silver",
+  "product_color": "Gold",
+  "product_image": "images/samsung-Apple-ipad-air2-gold",
   "network": {
     "technology": "GSM / HSPA / LTE"
   },
   "body": {
-    "dimensions": "250.6 x 174.1 x 7.5 mm (9.87 x 6.85 x 0.30 in)",
-    "weight": "490 g (Wi-Fi) / 495 g (LTE) (1.08 lb)"
+    "dimensions": "240 x 169.5 x 6.1 mm (9.45 x 6.67 x 0.24 in)",
+    "weight": "437 g (Wi-Fi) / 444 g (3G/LTE) (15.41 oz)"
   },
   "display": {
-    "displayType": "Retina IPS LCD, 500 nits (typ)",
-    "size": "10.2 inches, 324.6 cm2 (~74.4% screen-to-body ratio)",
-    "resolution": "1620 x 2160 pixels, 4:3 ratio (~264 ppi density)"
+    "displayType": "IPS LCD",
+    "size": "9.7 inches, 291.4 cm2 (~71.6% screen-to-body ratio)",
+    "resolution": "1536 x 2048 pixels, 4:3 ratio (~264 ppi density)"
   },
   "platform": {
-    "os": "iPadOS 14, upgradable to iPadOS 14.2",
-    "chipset": "Apple A12 Bionic (7 nm)"
+    "os": "iOS 8.1, upgradable to iPadOS 14.2",
+    "chipset": "Apple A8X (20 nm)"
   },
   "memory": {
-    "internal": "32GB 3GB RAM, 128GB 3GB RAM"
+    "internal": "16GB 2GB RAM, 32GB 2GB RAM, 64GB 2GB RAM, 128GB 2GB RAM"
   },
   "camera": {
-    "main": "8MP",
+    "main": "12MP",
     "selfie": "7MP"
   },
   "battery": {
-    "batteryType": "Li-Po, non-removable (32.4 Wh)" 
+    "batteryType": "Li-Po 7340 mAh, non-removable (27.62 Wh)" 
   },
   "misc": {
-    "colors": "Silver, Gold, Space Gray",
-    "models": "A2428, A2429, A2270, A2430"
+    "colors": "Space Gray, Silver, Gold",
+    "models": "A1566, A1567"
   }
 }
