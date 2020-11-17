@@ -2,43 +2,43 @@ POST http://localhost:3004/api/products
 Content-type: application/json
 
 {
-  "product_SKU":  "AplIpad-IPAIR20-SPCGRY",
+  "product_SKU":  "AplIpad-IPA102-SLV",
   "product_name": "Apple",
-  "product_model": "Apple iPad Air (2020)",
+  "product_model": "Apple iPad 10.2 (2020)",
   "product_description": "We do more than hit the reset button. Before any device gets labeled Samsung Certified Pre-Owned, it gets completely taken apart and rebuilt by the same engineers who build our new phones. They replace worn out pieces, and we include the same one-year warranty our new phones come with for extra peace of mind.",
-  "quantity_per_unit": 17,
+  "quantity_per_unit": 27,
   "unit_price": 370000,
   "discount_price": "",
-  "product_color": "Space Gray",
-  "product_image": "images/samsung-Apple-ipad-air20-gold",
+  "product_color": "Silver",
+  "product_image": "images/samsung-Apple-ipad-102-silver",
   "network": {
     "technology": "GSM / HSPA / LTE"
   },
   "body": {
-    "dimensions": "247.6 x 178.5 x 6.1 mm (9.75 x 7.03 x 0.24 in)",
-    "weight": "	458 g (Wi-Fi) / 460 g (3G/LTE) (1.01 lb)"
+    "dimensions": "250.6 x 174.1 x 7.5 mm (9.87 x 6.85 x 0.30 in)",
+    "weight": "490 g (Wi-Fi) / 495 g (LTE) (1.08 lb)"
   },
   "display": {
-    "displayType": "Liquid Retina IPS LCD, 500 nits (typ)",
-    "size": "10.9 inches, 359.2 cm2 (~81.3% screen-to-body ratio)",
-    "resolution": "1640 x 2360 pixels (~264 ppi density)"
+    "displayType": "Retina IPS LCD, 500 nits (typ)",
+    "size": "10.2 inches, 324.6 cm2 (~74.4% screen-to-body ratio)",
+    "resolution": "1620 x 2160 pixels, 4:3 ratio (~264 ppi density)"
   },
   "platform": {
-    "os": "iPadOS 14.1, upgradable to iPadOS 14.2",
-    "chipset": "Apple A14 Bionic (5 nm)"
+    "os": "iPadOS 14, upgradable to iPadOS 14.2",
+    "chipset": "Apple A12 Bionic (7 nm)"
   },
   "memory": {
-    "internal": "64GB, 256GB"
+    "internal": "32GB 3GB RAM, 128GB 3GB RAM"
   },
   "camera": {
-    "main": "12MP",
+    "main": "8MP",
     "selfie": "7MP"
   },
   "battery": {
-    "batteryType": "Li-Po, non-removable (28.6 Wh)" 
+    "batteryType": "Li-Po, non-removable (32.4 Wh)" 
   },
   "misc": {
-    "colors": "Space Gray, Silver, Rose Gold, Green, Sky Blue",
-    "models": "A2324, A2072"
+    "colors": "Silver, Gold, Space Gray",
+    "models": "A2428, A2429, A2270, A2430"
   }
 }
