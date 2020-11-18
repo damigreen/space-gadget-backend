@@ -2,33 +2,33 @@ POST http://localhost:3004/api/products/computers
 Content-type: application/json
 
 {
-  "product_SKU":  "DELL-G315-BLK",
+  "product_SKU":  "DELL-XPS13-PLTSLV",
   "product_name": "Dell",
-  "product_model": "Dell G3 15 3579",
+  "product_model": "XPS 13 2-in-1 Laptop",
   "product_description": "",
-  "quantity_per_unit": 40,
-  "unit_price": 623193.02,
-  "product_image": "images/dell-g3-15",
-  "product_color": "Black",
+  "quantity_per_unit": 31,
+  "unit_price": 620000,
+  "product_image": "images/dell-xps-13-platinum-silver",
+  "product_color": "platinum silver",
   "discount_price": "",
   "battery": "",
-  "camera": "",
-  "display": "FHD (1920 x 1080) IPS Anti-Glare LED Backlit Display (non-touch)",
-  "memory": "4-16 GB, DDR4, 2666 MHz; up to 32 GB (additional memory sold separately)",
-  "processor": "8th Gen Intel® Core™ i5-8300HQ Quad Core Processor, 8th Gen Intel® Core™ i7-8750HQ Quad Core Processor",
-  "operating_system": "Windows 10, Ubuntu (selected countries)",
-  "video_card": "NVIDIA® GeForce® GTX 1050, 4 GB GDDR5 video memory, NVIDIA® GeForce® GTX 1050 Ti, 4 GB GDDR5 video memory, NVIDIA® GeForce® GTX 1060 with NVIDIA® Max-Q Design Technology, 6 GB GDDR5 video memory",
-  "hard_drive": "1 TB 5400 RPM Hard Drive, 1 TB 5400 RPM Hybrid Hard Drive with 8GB Cache, Dual drive configuration with 128GB SSD + 500 GB 5400 RPM Hard Drive, Dual drive configuration with 128GB SSD + 1TB 5400 RPM Hard Drive, Dual drive configuration with 256GB SSD + 1TB 5400 RPM Hard Drive, 256 GB SSD, 512 GB PCle SSD",
+  "camera": "Integrated widescreen HD (720p)",
+  "display": "13.4-inch, UltraSharp 4K UHD+ (3840 x 2400), Touch, InfinityEdge, HDR 400, 500-nit, 100% sRGB + DCI-P3 90% color gamut, 1500:1 contrast ratio | 13.4-inch, FHD+ ( 1920 X 1200), Touch, InfinityEdge, HDR 400, 500-nit, 100% sRGB color gamut, 1800:1 contrast ratio, anti-smudge | Dolby Vision™, 170° wide viewing angle +/- 85° / 85° / 85° / 85°, 0.65% anti-reflective, anti-smudge",
+  "memory": "4 GB, LPDDR4 SDRAM, 3733 MHz, Intergrated | 8 GB, LPDDR4x SDRAM, 3733 MHz, Intergrated | 16 GB, LPDDR4x SDRAM, 3733 MHz, Intergrated | 2 GB, LPDDR4x SDRAM, 3733 MHz, Intergrated",
+  "processor": "10th Generation Intel® Core™ i3-1005G1 (4 MB Cache, 2 Core, up to 3.40 GHz), 10th Generation Intel® Core™ i5-1035G1 (6 MB Cache, 4 Core, up to 3.60 GHz), 10th Generation Intel® Core™ i7-1065G7 (8 MB Cache, 4 Core, up to 3.90 GHz)",
+  "operating_system": "Windows 10 Home, 64-bit, Windows 10 Home Ultra , 64-bit",
+  "video_card": "Intel® UHD Graphics, Intel® Iris™ Plus Graphics",
+  "hard_drive": "256 GB, M.2, Gen 3 PCIe x4, SSD, Onboard | 512 GB, M.2, Gen 3 PCIe x4, SSD, Onboard | 1 TB, M.2, Gen 3 PCIe x4, SSD, Onboard",
   "body": {
     "dimensions": "Height: 0.89\" (22.7mm) x Width: 14.96\" (380mm) x Depth: 10.16\" (258mm)",
     "weight": "Weight: 5.57lbs (2.53Kg)2"
   },
   "wireless": {
-    "wifi": "802.11ac + Bluetooth 5.0, Dual Band 2.4&5 GHz, MU-MIMO/80Mhz, 1x1, Gigabit Ethernet",
-    "bluetooth": "Bluetooth 5.0 (Standard)"
+    "wifi": "Killer™ AX1650, 2x2, Intel WiFi 6 (802.11ax) + Bluetooth 5.0 | Miracast™ capable",
+    "bluetooth": "Bluetooth 5.0"
   },
   "misc": {
-    "colors": "",
+    "colors": "platinum silver, frost",
     "models": ""
   }
 }
