@@ -15,12 +15,7 @@ productRouter.post('/', async (req, res, next) => {
   try {
     const body = req.body;
 
-    const productExist = Product.find({ product_SKU: body.product_SKU});
-    if (productExist) {
-      // await res.json({ Error: "Cannot add the same product" });
-      // console.log(productExist);
-      console.log("I am here already:=================================");
-    }
+    console.log("Adding mobile phone:=================================");
 
     const newProduct = await new Product({
       // product_id: uuidv4(),
@@ -76,7 +71,7 @@ productRouter.post('/', async (req, res, next) => {
         bluetooth: body.wireless.bluetooth
       }
     });
-
+    
     await newProduct.save();
     res.json(newProduct.toJSON());
   } catch (e) {
