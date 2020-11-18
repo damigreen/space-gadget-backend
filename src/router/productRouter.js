@@ -66,6 +66,14 @@ productRouter.post('/', async (req, res, next) => {
       misc: {
         colors: body.misc.colors,
         models: body.misc.models
+      },
+      processor: body.processor,
+      operating_system: body.operating_system,
+      video_card: body.video_card,
+      hard_drive: body.hard_drive,
+      wireless: {
+        wifi: body.wireless.wifi,
+        bluetooth: body.wireless.bluetooth
       }
     });
 
