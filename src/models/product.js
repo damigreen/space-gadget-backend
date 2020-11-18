@@ -46,6 +46,15 @@ const productSchema = mongoose.Schema({
     colors: String,
     models: String
   },
+  processor: String,
+  operating_system: String,
+  video_card: String,
+  hard_drive: String,
+  wireless: {
+    wifi: String,
+    bluetooth: String
+  },
+  
   category_id: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Category'
@@ -57,14 +66,7 @@ const productSchema = mongoose.Schema({
   phoneDetailSchema: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'PhoneDetailSchema'
-  },
-  processor: String,
-  operating_system: String,
-  video_card: String,
-  hard_drive: String,
-  // slots: String,
-  wireless: String
-
+  }
   // category_id: String,
   //  size: String,
   // color: String,
