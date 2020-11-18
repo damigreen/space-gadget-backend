@@ -1,44 +1,44 @@
-POST http://localhost:3004/api/products
+POST http://localhost:3004/api/products/mobile-phones
 Content-type: application/json
 
 {
-  "product_SKU":  "AplIpad-IPAMIN-GLD",
+  "product_SKU":  "AplIpad-IPAMIN2-BLK",
   "product_name": "Apple",
-  "product_model": "Apple iPad mini (2019)",
+  "product_model": "Apple iPad mini 2",
   "product_description": "We do more than hit the reset button. Before any device gets labeled Samsung Certified Pre-Owned, it gets completely taken apart and rebuilt by the same engineers who build our new phones. They replace worn out pieces, and we include the same one-year warranty our new phones come with for extra peace of mind.",
-  "quantity_per_unit": 19,
-  "unit_price": 204000,
+  "quantity_per_unit": 15,
+  "unit_price": 122000,
   "discount_price": "",
-  "product_color": "Gold",
-  "product_image": "images/samsung-Apple-ipad-mini-gold",
+  "product_color": "Black",
+  "product_image": "images/samsung-Apple-ipad-mini2-black",
   "network": {
-    "technology": "GSM / HSPA/ LTE"
+    "technology": "GSM / CDMA / HSPA / EVDO / LTE"
   },
   "body": {
-    "dimensions": "203.2 x 134.8 x 6.1 mm (8.0 x 5.31 x 0.24 in)",
-    "weight": "300.5 g (Wi-Fi) / 308.2 g (3G/LTE) (10.86 oz)"
+    "dimensions": "200 x 134.7 x 7.5 mm (7.87 x 5.30 x 0.30 in)",
+    "weight": "331 g (Wi-Fi) / 341 g (3G/LTE) (11.68 oz)"
   },
   "display": {
     "displayType": "IPS LCD",
-    "size": "7.9 inches, 193.3 cm2 (~70.6% screen-to-body ratio)",
+    "size": "7.9 inches, 193.3 cm2 (~71.7% screen-to-body ratio)",
     "resolution": "1536 x 2048 pixels, 4:3 ratio (~324 ppi density)"
   },
   "platform": {
-    "os": "iOS 12.1.3, upgradable to iPadOS 14.2",
-    "chipset": "Apple A12 Bionic"
+    "os": "iOS 7, upgradable to iPadOS 12.4.6",
+    "chipset": "Apple A7 (28 nm)"
   },
   "memory": {
-    "internal": "64GB 3GB RAM, 256GB 3GB RAM"
+    "internal": "16GB 1GB RAM, 32GB 1GB RAM, 64GB 1GB RAM, 128GB 1GB RAM"
   },
   "camera": {
     "main": "8MP",
     "selfie": "7MP"
   },
   "battery": {
-    "batteryType": "Li-Ion 5124 mAh, non-removable (19.1 Wh)" 
+    "batteryType": "Li-Po 6470 mAh, non-removable (24.3 Wh)" 
   },
   "misc": {
-    "colors": "Space Gray, Silver, Gold",
-    "models": "A2126, A2124, A2133, A2125"
+    "colors": "Space Gray/Black, Silver/White",
+    "models": "A1489, A1490, A1491"
   }
 }
