@@ -1,0 +1,34 @@
+POST http://localhost:3004/api/products/computers
+Content-type: application/json
+
+{
+  "product_SKU":  "DELL-G315-BLK",
+  "product_name": "Dell",
+  "product_model": "Dell G3 15 3579",
+  "product_description": "",
+  "quantity_per_unit": 40,
+  "unit_price": 623193.02,
+  "product_image": "images/dell-g3-15",
+  "product_color": "Black",
+  "discount_price": "",
+  "battery": "",
+  "camera": "",
+  "display": "FHD (1920 x 1080) IPS Anti-Glare LED Backlit Display (non-touch)",
+  "memory": "4-16 GB, DDR4, 2666 MHz; up to 32 GB (additional memory sold separately)",
+  "processor": "8th Gen Intel® Core™ i5-8300HQ Quad Core Processor, 8th Gen Intel® Core™ i7-8750HQ Quad Core Processor",
+  "operating_system": "Windows 10, Ubuntu (selected countries)",
+  "video_card": "NVIDIA® GeForce® GTX 1050, 4 GB GDDR5 video memory, NVIDIA® GeForce® GTX 1050 Ti, 4 GB GDDR5 video memory, NVIDIA® GeForce® GTX 1060 with NVIDIA® Max-Q Design Technology, 6 GB GDDR5 video memory",
+  "hard_drive": "1 TB 5400 RPM Hard Drive, 1 TB 5400 RPM Hybrid Hard Drive with 8GB Cache, Dual drive configuration with 128GB SSD + 500 GB 5400 RPM Hard Drive, Dual drive configuration with 128GB SSD + 1TB 5400 RPM Hard Drive, Dual drive configuration with 256GB SSD + 1TB 5400 RPM Hard Drive, 256 GB SSD, 512 GB PCle SSD",
+  "body": {
+    "dimensions": "Height: 0.89\" (22.7mm) x Width: 14.96\" (380mm) x Depth: 10.16\" (258mm)",
+    "weight": "Weight: 5.57lbs (2.53Kg)2"
+  },
+  "wireless": {
+    "wifi": "802.11ac + Bluetooth 5.0, Dual Band 2.4&5 GHz, MU-MIMO/80Mhz, 1x1, Gigabit Ethernet",
+    "bluetooth": "Bluetooth 5.0 (Standard)"
+  },
+  "misc": {
+    "colors": "",
+    "models": ""
+  }
+}
