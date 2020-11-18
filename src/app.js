@@ -4,6 +4,7 @@ const app = express();
 const bodyParser = require('body-parser');
 const config = require('./utils/config');
 const productRouter = require('./router/productRouter')
+const computersRouter = require('./router/computersRouter');
 
 // const Product = require('../models/product');
 // const PhoneDetail = require('../models/product');
@@ -25,7 +26,8 @@ mongoose.connect(mongoUrl, { useNewUrlParser: true, useUnifiedTopology: true })
 
 app.use(bodyParser.json());
 app.use(express.json());
-app.use('/api/products', productRouter);
+app.use('/api/products/mobile-phones', productRouter);
+app.use('/api/products/computers', computersRouter);
 
 
 app.get('/ping', (req, res) => {
