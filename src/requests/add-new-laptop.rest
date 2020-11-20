@@ -2,33 +2,33 @@ POST http://localhost:3004/api/products/computers
 Content-type: application/json
 
 {
-  "product_SKU": "HP-ELTBK-840-SLV",
+  "product_SKU": "HP-Notebook-14s-SLV",
   "product_name": "HP",
-  "product_model": "EliteBook 840",
+  "product_model": "HP Notebook - 14s",
   "product_description": "",
-  "quantity_per_unit": 32,
-  "unit_price": 283000,
-  "product_image": "images/hp-elitebook-silver",
+  "quantity_per_unit": 22,
+  "unit_price": 293000,
+  "product_image": "images/hp-notebook-14s-silver",
   "product_color": "Silver",
   "discount_price": "",
-  "battery": "HP 3-cell (31 WHr) Li-Ion battery",
+  "battery": "3-cell, 41 Wh Li-ion",
   "camera": "2-megapixel webcam; 8-megapixel rear camera",
   "display": "14.0-inch diagonal LED-backlit HD+ anti-glare (1600 x 900 resolution)",
-  "memory": "2GB, 4GB, and 8GB SODIMMs",
-  "processor": "Intel Core i7-2820QM (2.30 GHz, 8MB L3 cache, 4 cores/8 threads, 45 W) Up to 3.40 GHz with Intel Turbo Boost Technology",
-  "operating_system": "Windows 7 Professional 64",
+  "memory": "4 GB DDR4-2400 SDRAM (1 x 4 GB)",
+  "processor": "Intel® Core™ i7-8550U (1.8 GHz base frequency, up to 4 GHz with Intel® Turbo Boost Technology, 8 MB cache, 4 cores)",
+  "operating_system": "Windows 10 Home Single Language 64",
   "video_card": "AMD Radeon HD 6470M with 1GB dedicated DDR3 video memory",
-  "hard_drive": "250/320/500/750GB 7200 rpm SMART SATA II",
+  "hard_drive": "1 TB 5400 rpm SATA",
   "body": {
-    "dimensions": "206.00 x 30.20 x 20.00",
-    "weight": "2.07 kg (4.56 lb)"
+    "dimensions": "32.4 x 22.59 x 1.99 cm",
+    "weight": "1.43 kg"
   },
   "wireless": {
-    "wifi": "802.11 ac",
+    "wifi": "Intel® 802.11a/b/g/n/ac (1x1) Wi-Fi® and Bluetooth® 4.2 Combo",
     "bluetooth": "Bluetooth 4.2"
   },
   "misc": {
-    "colors": "Black, Silver",
+    "colors": "Black, Silver, Gray",
     "models": ""
   }
 }
