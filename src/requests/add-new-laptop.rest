@@ -2,30 +2,30 @@ POST http://localhost:3004/api/products/computers
 Content-type: application/json
 
 {
-  "product_SKU": "DELL-VEN11-PRO-BLK",
+  "product_SKU": "DELL-PRE-3520-GRY",
   "product_name": "Dell",
-  "product_model": "Venue 11 Pro",
+  "product_model": "Precision 3520",
   "product_description": "",
-  "quantity_per_unit": 43,
-  "unit_price": 80000,
-  "product_image": "images/dell-ven-11-pro-black",
-  "product_color": "Black",
+  "quantity_per_unit": 19,
+  "unit_price": 702000,
+  "product_image": "images/dell-ven-11-pro-gray",
+  "product_color": "Gray",
   "discount_price": "",
-  "battery": "2-cell, lithium-ion, integrated",
+  "battery": "6-cell, 92Whr Lithium Ion polymer battery with Express Charge",
   "camera": "2-megapixel webcam; 8-megapixel rear camera",
   "display": "10.8-inch FHD 1920 X 1080 IPS display with 400 nits brightness",
   "memory": "128 GB SSD 8GB RAM",
-  "processor": "Intel Core M-5Y71 vPro",
-  "operating_system": "Windows 10 Pro, 64-bit",
-  "video_card": "Intel HD Graphics 5300",
-  "hard_drive": "M.2 2280, 256 GB, Gen 3 PCIe x4 NVMe, Classs 40 SSD",
+  "processor": "Intel Core i7-7820HQ (Quad Core 2.90GHz, 3.90GHz Turbo, 8MB 35W)",
+  "operating_system": "Windows™ 10 Pro (64-bit) w/ Intel 6th & 7th Gen Processor",
+  "video_card": "Nvidia Quadro M620 w/2GB GDDR5 dedicated memory",
+  "hard_drive": "128GB, 256GB, 360GB, 512GB, 1TB SATA SSD, 512GB SATA SED SSD",
   "body": {
-    "dimensions": "11.01 x 6.95 x .42 inches (27.97 X 17.65 X 1.07 cm)",
-    "weight": "0.72 kg (1.60 lb)"
+    "dimensions": "Width: 14.80”/376 mm x Depth: 9.87”/250.65 mm x Height: 0.96”/24.3 mm",
+    "weight": "4.81 lb"
   },
   "wireless": {
-    "wifi": "Intel 7265 dual-band 2X2 802.11 ac WiFi",
-    "bluetooth": "Bluetooth 4.0"
+    "wifi": "Intel® Dual Band Wireless – AC 8260 802.11AC Wi-Fi Wireless Card (No BT)",
+    "bluetooth": "Bluetooth 4.1"
   },
   "misc": {
     "colors": "Black, Gray",
