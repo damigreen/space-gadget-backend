@@ -2,30 +2,30 @@ POST http://localhost:3004/api/products/computers
 Content-type: application/json
 
 {
-  "product_SKU": "DELL-PRE-3520-GRY",
+  "product_SKU": "DELL-LAT-7390-M74F6-BLK",
   "product_name": "Dell",
-  "product_model": "Precision 3520",
+  "product_model": "Lattitude 7390 M74F6",
   "product_description": "",
-  "quantity_per_unit": 19,
-  "unit_price": 702000,
-  "product_image": "images/dell-ven-11-pro-gray",
-  "product_color": "Gray",
+  "quantity_per_unit": 47,
+  "unit_price": 372000,
+  "product_image": "images/dell-lat-7390-black",
+  "product_color": "Black",
   "discount_price": "",
   "battery": "6-cell, 92Whr Lithium Ion polymer battery with Express Charge",
   "camera": "2-megapixel webcam; 8-megapixel rear camera",
-  "display": "10.8-inch FHD 1920 X 1080 IPS display with 400 nits brightness",
-  "memory": "128 GB SSD 8GB RAM",
-  "processor": "Intel Core i7-7820HQ (Quad Core 2.90GHz, 3.90GHz Turbo, 8MB 35W)",
+  "display": "1366x768 pixels",
+  "memory": "8GB RAM 256GB SSD",
+  "processor": "Intel Core i5",
   "operating_system": "Windows™ 10 Pro (64-bit) w/ Intel 6th & 7th Gen Processor",
   "video_card": "Nvidia Quadro M620 w/2GB GDDR5 dedicated memory",
   "hard_drive": "128GB, 256GB, 360GB, 512GB, 1TB SATA SSD, 512GB SATA SED SSD",
   "body": {
-    "dimensions": "Width: 14.80”/376 mm x Depth: 9.87”/250.65 mm x Height: 0.96”/24.3 mm",
-    "weight": "4.81 lb"
+    "dimensions": "206.00 x 30.50 x 38.10",
+    "weight": "1.13 kg"
   },
   "wireless": {
-    "wifi": "Intel® Dual Band Wireless – AC 8260 802.11AC Wi-Fi Wireless Card (No BT)",
-    "bluetooth": "Bluetooth 4.1"
+    "wifi": "802.11 ac",
+    "bluetooth": "Bluetooth 4.2"
   },
   "misc": {
     "colors": "Black, Gray",
