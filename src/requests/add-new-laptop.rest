@@ -2,30 +2,30 @@ POST http://localhost:3004/api/products/computers
 Content-type: application/json
 
 {
-  "product_SKU": "HP-OMN-17t-JETBLK",
+  "product_SKU": "HP-PAV-GAM-16-SCTRED",
   "product_name": "HP",
-  "product_model": "HP Omen 17t",
+  "product_model": "HP Pavilion Gaming Laptop - 16",
   "product_description": "",
-  "quantity_per_unit": 24,
-  "unit_price": 411000,
-  "product_image": "images/hp-omen-17t-jet-black",
-  "product_color": "Jet Black",
+  "quantity_per_unit": 9,
+  "unit_price": 370000,
+  "product_image": "images/hp-pavilion Gaming-16-scarlet-red",
+  "product_color": "Scarlet Red",
   "discount_price": "",
-  "battery": "3-cell 37WHr 3.25 lithium-ion battery",
+  "battery": "3-cell, 52.5 Wh Li-ion",
   "camera": "2-megapixel webcam; 8-megapixel rear camera",
-  "display": "17.3\" diagonal FHD 144 Hz IPS anti-glare WLED-backlit (1920 x 1080)",
-  "memory": "16 GB DDR4-2933 SDRAM (2 x 8 GB)",
-  "processor": "Intel® Core™ i5-10300H (2.5 GHz, up to 4.5 GHz, 8 MB L3 cache, 4 cores)",
-  "operating_system": "Windows 8.1 with Bing (64-bit)",
-  "video_card": "NVIDIA® GeForce® GTX 1660 Ti (6 GB)",
-  "hard_drive": "512 GB PCIe® NVMe™ TLC M.2 SSD + 1 TB PCIe® NVMe™ TLC M.2 SSD",
+  "display": "40.9 cm (16.1\") diagonal FHD, 144 Hz, IPS, anti-glare, micro-edge, WLED-backlit, 300 nits, 72% NTSC (1920 x 1080)",
+  "memory": "8 GB DDR4-2933 SDRAM (2 x 4 GB)",
+  "processor": "Intel® Core™ i5-10300H (2.5 GHz base frequency, up to 4.5 GHz with Intel® Turbo Boost Technology, 8 MB L3 cache, 4 cores)",
+  "operating_system": "Windows 10 Home 64",
+  "video_card": "NVIDIA® GeForce® GTX 1650 (4 GB GDDR6 dedicated)",
+  "hard_drive": "512 GB PCIe® NVMe™ M.2 SSD",
   "body": {
-    "dimensions": "14.80 x 9.69 x 0.89 in",
-    "weight": "4.6 lb"
+    "dimensions": "37 x 26.25 x 2.35 cm",
+    "weight": "2.35 kg"
   },
   "wireless": {
-    "wifi": "802.11b/g/n (1x1) Wi-Fi® and Bluetooth® 4.2 combo",
-    "bluetooth": "Bluetooth 4.2"
+    "wifi": "Realtek 802.11 b/g/n/ac (2x2) and Bluetooth® 5 combo",
+    "bluetooth": "Bluetooth 5.0"
   },
   "misc": {
     "colors": "Jet Black, Natural Silver, Pale Gold, Scarlet Red, Lumiere Blue, Berry Mauve",
