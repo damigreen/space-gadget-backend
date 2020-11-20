@@ -2,33 +2,33 @@ POST http://localhost:3004/api/products/computers
 Content-type: application/json
 
 {
-  "product_SKU": "DELL-LAT-CHRBK-BLK",
-  "product_name": "Dell",
-  "product_model": "Lattitude Chromebook",
+  "product_SKU": "HP-ELTBK-840-SLV",
+  "product_name": "HP",
+  "product_model": "EliteBook 840",
   "product_description": "",
-  "quantity_per_unit": 50,
+  "quantity_per_unit": 32,
   "unit_price": 283000,
-  "product_image": "images/dell-chromebook-black",
-  "product_color": "Black",
+  "product_image": "images/hp-elitebook-silver",
+  "product_color": "Silver",
   "discount_price": "",
-  "battery": "6-cell, 92Whr Lithium Ion polymer battery with Express Charge",
+  "battery": "HP 3-cell (31 WHr) Li-Ion battery",
   "camera": "2-megapixel webcam; 8-megapixel rear camera",
-  "display": "1366x768 pixels",
-  "memory": "4GB RAM 256GB HDDR 3",
-  "processor": "Celeron Dual Core",
-  "operating_system": "Chrome OS",
-  "video_card": "Intel HD Graphics 620",
-  "hard_drive": "128GB, 256GB, 360GB, 512GB HDDR",
+  "display": "14.0-inch diagonal LED-backlit HD+ anti-glare (1600 x 900 resolution)",
+  "memory": "2GB, 4GB, and 8GB SODIMMs",
+  "processor": "Intel Core i7-2820QM (2.30 GHz, 8MB L3 cache, 4 cores/8 threads, 45 W) Up to 3.40 GHz with Intel Turbo Boost Technology",
+  "operating_system": "Windows 7 Professional 64",
+  "video_card": "AMD Radeon HD 6470M with 1GB dedicated DDR3 video memory",
+  "hard_drive": "250/320/500/750GB 7200 rpm SMART SATA II",
   "body": {
     "dimensions": "206.00 x 30.20 x 20.00",
-    "weight": "1.40 kg"
+    "weight": "2.07 kg (4.56 lb)"
   },
   "wireless": {
     "wifi": "802.11 ac",
     "bluetooth": "Bluetooth 4.2"
   },
   "misc": {
-    "colors": "Black, Gray",
+    "colors": "Black, Silver",
     "models": ""
   }
 }
