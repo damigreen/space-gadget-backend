@@ -2,26 +2,26 @@ POST http://localhost:3004/api/products/computers
 Content-type: application/json
 
 {
-  "product_SKU": "DELL-LAT-7390-M74F6-BLK",
+  "product_SKU": "DELL-LAT-CHRBK-BLK",
   "product_name": "Dell",
-  "product_model": "Lattitude 7390 M74F6",
+  "product_model": "Lattitude Chromebook",
   "product_description": "",
-  "quantity_per_unit": 47,
-  "unit_price": 372000,
-  "product_image": "images/dell-lat-7390-black",
+  "quantity_per_unit": 50,
+  "unit_price": 283000,
+  "product_image": "images/dell-chromebook-black",
   "product_color": "Black",
   "discount_price": "",
   "battery": "6-cell, 92Whr Lithium Ion polymer battery with Express Charge",
   "camera": "2-megapixel webcam; 8-megapixel rear camera",
   "display": "1366x768 pixels",
-  "memory": "8GB RAM 256GB SSD",
-  "processor": "Intel Core i5",
-  "operating_system": "Windows™ 10 Pro (64-bit) w/ Intel 6th & 7th Gen Processor",
-  "video_card": "Nvidia Quadro M620 w/2GB GDDR5 dedicated memory",
-  "hard_drive": "128GB, 256GB, 360GB, 512GB, 1TB SATA SSD, 512GB SATA SED SSD",
+  "memory": "4GB RAM 256GB HDDR 3",
+  "processor": "Celeron Dual Core",
+  "operating_system": "Chrome OS",
+  "video_card": "Intel HD Graphics 620",
+  "hard_drive": "128GB, 256GB, 360GB, 512GB HDDR",
   "body": {
-    "dimensions": "206.00 x 30.50 x 38.10",
-    "weight": "1.13 kg"
+    "dimensions": "206.00 x 30.20 x 20.00",
+    "weight": "1.40 kg"
   },
   "wireless": {
     "wifi": "802.11 ac",
