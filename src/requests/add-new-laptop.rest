@@ -2,33 +2,33 @@ POST http://localhost:3004/api/products/computers
 Content-type: application/json
 
 {
-  "product_SKU":  "DELL-INSP15-5521-PEB",
+  "product_SKU":  "DELL-VOS13-5301-DUN",
   "product_name": "Dell",
-  "product_model": "Inspiron 17 7000",
+  "product_model": "Vostro 13 5301",
   "product_description": "",
-  "quantity_per_unit": 16,
-  "unit_price": 739000,
-  "product_image": "images/dell-insp-15-5521-pebble",
-  "product_color": "Pebble",
+  "quantity_per_unit": 11,
+  "unit_price": 380000,
+  "product_image": "images/dell-insp-15-5521-dune",
+  "product_color": "Dune",
   "discount_price": "",
   "battery": "4-cell, 68 WHr \"smart\" lithium-ion, integrated",
-  "camera": "720p at 30 fps HD RGB camera, dual-array digital microphones",
-  "display": "17-inch QHD+ 2560 x 1600, 60 Hz, TrueLife, touch, Narrow Border, 100% sRGB typical, 300 nits, IPS",
-  "memory": "16 GB, 2 x 8 GB, DDR4, 3200 MHz, dual-channel",
-  "processor": "11th Generation Intel® Core™ i7-1165G7, 12 MB Cache, 4 Core, up to 4.70 GHz",
+  "camera": "Integrated Widescreen HD (1280 x 720 at 30 fps) Webcam with Dual Digital Microphone",
+  "display": "13.3-inch, FHD, 1920 x 1080, 60 Hz, 300 Nits, 95% RGB, Wide-veiwing angle, Anti-Glare, Non-Touch, WLED display",
+  "memory": "16 GB, 1 x 16 GB, LPDDR4, 3200MHz, SO-DIMM",
+  "processor": "11th Generation Intel® Core™ i5-1135G7, 8 MB Cache, 4 Cores, 2.4 GHz to 4.2 GHz, 15 W",
   "operating_system": "Windows 10 Pro, 64-bit",
-  "video_card": "NVIDIA® GeForce® MX350, 2 GB GDDR5",
-  "hard_drive": "2 TB, M.2 2280, PCIe Gen 3.0 NVMe, up to 32Gbps, SSD",
+  "video_card": "Intel® Iris® Xe Graphics, NVIDIA® GeForce® MX350",
+  "hard_drive": "M.2 2280, 256 GB, Gen 3 PCIe x4 NVMe, Classs 40 SSD",
   "body": {
-    "dimensions": "Height (front): 0.60 in. (15.26 mm)",
-    "weight": "5.36 lb (2.43 kg)"
+    "dimensions": "Height: 14mm -15.9mm (0.55\" - 0.63\"), Width: 306mm (12.05\")  Depth: 204mm (8.03\")",
+    "weight": "1.06 kg (2.35 lb)"
   },
   "wireless": {
-    "wifi": "Intel® AX201, 2x2 MIMO, 2.4/5 GHz, Wi-Fi 6 (WiFi 802.11ax)",
-    "bluetooth": "Bluetooth 5.1"
+    "wifi": "Qualcomm® DW1810, 1 x 1, 802.11ac",
+    "bluetooth": "Bluetooth 5.0"
   },
   "misc": {
-    "colors": "Platinum Silver, Eden, River Rock, Pebble, Element",
+    "colors": "Platinum Silver, Eden, River Rock, Pebble, Element, Dune",
     "models": ""
   }
 }
