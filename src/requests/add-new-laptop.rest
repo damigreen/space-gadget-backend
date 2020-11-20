@@ -2,33 +2,33 @@ POST http://localhost:3004/api/products/computers
 Content-type: application/json
 
 {
-  "product_SKU":  "DELL-VOS13-5301-DUN",
+  "product_SKU": "DELL-VEN11-PRO-BLK",
   "product_name": "Dell",
-  "product_model": "Vostro 13 5301",
+  "product_model": "Venue 11 Pro",
   "product_description": "",
-  "quantity_per_unit": 11,
-  "unit_price": 380000,
-  "product_image": "images/dell-insp-15-5521-dune",
-  "product_color": "Dune",
+  "quantity_per_unit": 43,
+  "unit_price": 80000,
+  "product_image": "images/dell-ven-11-pro-black",
+  "product_color": "Black",
   "discount_price": "",
-  "battery": "4-cell, 68 WHr \"smart\" lithium-ion, integrated",
-  "camera": "Integrated Widescreen HD (1280 x 720 at 30 fps) Webcam with Dual Digital Microphone",
-  "display": "13.3-inch, FHD, 1920 x 1080, 60 Hz, 300 Nits, 95% RGB, Wide-veiwing angle, Anti-Glare, Non-Touch, WLED display",
-  "memory": "16 GB, 1 x 16 GB, LPDDR4, 3200MHz, SO-DIMM",
-  "processor": "11th Generation Intel® Core™ i5-1135G7, 8 MB Cache, 4 Cores, 2.4 GHz to 4.2 GHz, 15 W",
+  "battery": "2-cell, lithium-ion, integrated",
+  "camera": "2-megapixel webcam; 8-megapixel rear camera",
+  "display": "10.8-inch FHD 1920 X 1080 IPS display with 400 nits brightness",
+  "memory": "128 GB SSD 8GB RAM",
+  "processor": "Intel Core M-5Y71 vPro",
   "operating_system": "Windows 10 Pro, 64-bit",
-  "video_card": "Intel® Iris® Xe Graphics, NVIDIA® GeForce® MX350",
+  "video_card": "Intel HD Graphics 5300",
   "hard_drive": "M.2 2280, 256 GB, Gen 3 PCIe x4 NVMe, Classs 40 SSD",
   "body": {
-    "dimensions": "Height: 14mm -15.9mm (0.55\" - 0.63\"), Width: 306mm (12.05\")  Depth: 204mm (8.03\")",
-    "weight": "1.06 kg (2.35 lb)"
+    "dimensions": "11.01 x 6.95 x .42 inches (27.97 X 17.65 X 1.07 cm)",
+    "weight": "0.72 kg (1.60 lb)"
   },
   "wireless": {
-    "wifi": "Qualcomm® DW1810, 1 x 1, 802.11ac",
-    "bluetooth": "Bluetooth 5.0"
+    "wifi": "Intel 7265 dual-band 2X2 802.11 ac WiFi",
+    "bluetooth": "Bluetooth 4.0"
   },
   "misc": {
-    "colors": "Platinum Silver, Eden, River Rock, Pebble, Element, Dune",
+    "colors": "Black, Gray",
     "models": ""
   }
 }
