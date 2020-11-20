@@ -2,33 +2,33 @@ POST http://localhost:3004/api/products/computers
 Content-type: application/json
 
 {
-  "product_SKU": "HP-STR-11-BLK",
+  "product_SKU": "HP-15Z-BLK",
   "product_name": "HP",
-  "product_model": "HP Stream 11",
+  "product_model": "HP 15Z",
   "product_description": "",
-  "quantity_per_unit": 45,
-  "unit_price": 198000,
-  "product_image": "images/hp-stream-11-black",
+  "quantity_per_unit": 35,
+  "unit_price": 248800,
+  "product_image": "images/hp-15z-black",
   "product_color": "Black",
   "discount_price": "",
   "battery": "3-cell 37WHr 3.25 lithium-ion battery",
   "camera": "2-megapixel webcam; 8-megapixel rear camera",
-  "display": "11.6-inch diagonal HD AntiGlare WLED-backlit display (1366x768)",
-  "memory": "On-board 2GB 1333MHz DDR3L SDRAM",
-  "processor": "AMD Ryzen™ 3 2300U (2 GHz base frequency, up to 3.4 GHz burst frequency, 6 MB cache, 4 cores)",
+  "display": "15.6\" diagonal HD SVA BrightView WLED-backlit (1366 x 768)",
+  "memory": "16 GB DDR4-2400 SDRAM (2x8GB)",
+  "processor": "AMD Ryzen™ 3 3200U (2.6 GHz, up to 3.5GHz, 5 MB cache, 2 cores)+AMD Radeon™ Vega 3 Graphics",
   "operating_system": "Windows 8.1 with Bing (64-bit)",
-  "video_card": "Intel HD graphics (",
-  "hard_drive": "32GB eMMC",
+  "video_card": "AMD Radeon™ Vega 3 Graphics",
+  "hard_drive": "1 TB 5400 rpm SATA; 128 GB M.2 SSD",
   "body": {
-    "dimensions": "0.78 in (H) x 11.81 in (W) x 8.10 in (D)",
-    "weight": "2.74 lb"
+    "dimensions": "14.80 x 9.69 x 0.89 in",
+    "weight": "4.6 lb"
   },
   "wireless": {
-    "wifi": "1x1 802.11b/g/n WLAN",
+    "wifi": "802.11b/g/n (1x1) Wi-Fi® and Bluetooth® 4.2 combo",
     "bluetooth": "Bluetooth 4.2"
   },
   "misc": {
-    "colors": "Black, Silver, Gray",
+    "colors": "Jet Black, Natural Silver, Pale Gold, Scarlet Red, Lumiere Blue, Berry Mauve",
     "models": ""
   }
 }
