@@ -2,11 +2,11 @@ const mongoose = require('mongoose');
 var uniqueValidator = require('mongoose-unique-validator');
 
 const SmokeProductSchema = mongoose.Schema({
-  name: String,
-  model: String,
-  features: {
-    
-  }
+  name: { type: String, required: true, unique: true },
+  brand: String,
+  categories: String,
+  description: String,
+  features: [  {type: String} ]
 });
 SmokeProductSchema.plugin(uniqueValidator);
 
@@ -18,4 +18,4 @@ SmokeProductSchema.set('toJSON', {
   }
 });
 
-module.exports = mongoose.model('Product', SmokeProductSchema);
+module.exports = mongoose.model('SmokeProduct', SmokeProductSchema);
