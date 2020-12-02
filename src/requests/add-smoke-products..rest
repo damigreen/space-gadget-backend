@@ -1,0 +1,10 @@
+POST http://localhost:3004/api/smoke-products
+Content-Type: application/json
+
+{
+  "name": "Ooze Curved Neck Quartz Vaporizer Dome",
+  "brand": "Ooze",
+  "categories": "Vaporizer",
+  "description": "Introducing the all new oil vaporizer from RYOT; the VERB 510 Portable Vaporizer. Made by smokers, for smokers, the RYOT VERB 510 offers high, medium and low power modes, as well as a pre heat function to suit your smoking style. A 5-click for on/off feature, makes for an easy to use, and safe device when not in use. Universal magnetic adapters make almost any 510 threaded cartridges ready to go. Simply snap the lid closed for transport and discretion.",
+  "features": [ "Three Temperature Settings", "Pre-Heat Function\"Compatible with 510 Threaded Cartridges (not included)", "Universal Magnetic Adapter", "Discreet, Portable Design", "Charges via Micro USB Cable (included)", "Available in Several Colors", "Battery Capacity: 650mAh", "Resistance: Above 0.8 Ohms", "Output: Low 3.0V / Medium 3.4V / High 3.8V", "For Use With: Liquids/Oils", "Size: 4\" x 3.25\" x 1.375"]
+}
