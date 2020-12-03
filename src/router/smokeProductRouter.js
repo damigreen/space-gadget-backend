@@ -14,7 +14,9 @@ smokeProductRouter.post('/', async (req, res) => {
     const newSmokeProduct = await new SmokeProduct({
       name: body.name,
       brand: body.brand,
+      price: body.price,
       categories: body.description,
+      description: body.description,
       features: body.features
     });
 
