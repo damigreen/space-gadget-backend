@@ -6,8 +6,8 @@ const SmokeProductSchema = mongoose.Schema({
   brand: String,
   categories: String,
   price: Number,
-  description: [ { type: String } ],
-  features: [  {type: String} ]
+  description: [{ type: String }],
+  features: [{ type: String }]
 });
 SmokeProductSchema.plugin(uniqueValidator);
 
