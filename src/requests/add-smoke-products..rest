@@ -2,9 +2,14 @@ POST http://localhost:3004/api/smoke-products
 Content-Type: application/json
 
 {
-  "name": "Ooze Curved Neck Quartz Vaporizer Dome",
-  "brand": "Ooze",
+  "name": "Grenco Science G Pen Elite Vaporizer for Ground Material",
+  "brand": "Grenco Science",
   "categories": "Vaporizer",
-  "description": "Introducing the all new oil vaporizer from RYOT; the VERB 510 Portable Vaporizer. Made by smokers, for smokers, the RYOT VERB 510 offers high, medium and low power modes, as well as a pre heat function to suit your smoking style. A 5-click for on/off feature, makes for an easy to use, and safe device when not in use. Universal magnetic adapters make almost any 510 threaded cartridges ready to go. Simply snap the lid closed for transport and discretion.",
-  "features": [ "Three Temperature Settings", "Pre-Heat Function\"Compatible with 510 Threaded Cartridges (not included)", "Universal Magnetic Adapter", "Discreet, Portable Design", "Charges via Micro USB Cable (included)", "Available in Several Colors", "Battery Capacity: 650mAh", "Resistance: Above 0.8 Ohms", "Output: Low 3.0V / Medium 3.4V / High 3.8V", "For Use With: Liquids/Oils", "Size: 4\" x 3.25\" x 1.375"]
+  "price": 45600,
+  "description": [
+    "Designed for superior vaporization of your dry herb, The G PEN Elite brings the same style and quality you've come to expect from Grenco Science and improves upon it.", "The G PEN line is known for its style, and The Elite has taken that to the next level. The new ergonomic design features a compact body engineered for ultimate portability without sacrificing its stylish appearance.", "The G Pen Elite features custom temperatures and a brilliant new LED interface that shows the current temperature and battery life. It takes only 30 seconds to heat up, even with one of the largest chambers on the market. This fully ceramic chamber allows for 360% heating on all sides, which provides unparalleled flavor.", "Fully charge the device (minimum of 3 hours). Remove the mouthpiece by gripping both sides firmly in one hand and lifting one side upward. Fully load the chamber with your preferred herb. Power on the device by pressing the front panel button 5 times (press 5 times again to turn off). Use the side buttons to select your preferred vaporization temperature. Hold the front panel button down for one second, release, and wait. Once the LED display indicates that your selected temperature has been reached, you can begin to draw from the vaporizer."
+  ],
+  "features": [
+    "For Use With Dry Herb", "Easily Fits in Pocket", "Fully Ceramic and Coilless 360 Chamber", "Custom Temperature", "Large Capacity Chamber", "Brilliant LED Interface", "Heat Up Time: 30 min", "Battery Life: 3 hrs"
+  ]
 }
