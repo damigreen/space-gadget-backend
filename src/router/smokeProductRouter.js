@@ -15,7 +15,7 @@ smokeProductRouter.post('/', async (req, res) => {
       name: body.name,
       brand: body.brand,
       price: body.price,
-      categories: body.description,
+      categories: body.categories,
       description: body.description,
       features: body.features
     });
