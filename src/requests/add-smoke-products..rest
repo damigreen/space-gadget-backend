@@ -2,17 +2,26 @@ POST http://localhost:3004/api/smoke-products
 Content-Type: application/json
 
 {
-  "name": "Dip Devices Evri 510 Pod Attachment",
-  "brand": "Dip Devices",
+  "name": "Vessel Style Series Vape Pen Battery",
+  "brand": "Vessel",
   "categories": "Vaporizer",
-  "price": 7600,
+  "price": 30000,
   "description": [
-    "The 510/Pod Attachment for EVRI connects to standard 510 cartridges and refillable e-juice pods. (Cartridge and pod pictured not included with attachment.) EVRI by Dip Devices is a multi-functional consumption solution. EVRI features a battery that connects magnetically to continuously evolving attachments. This item is for the 510/Pod Attachment only. The EVRI Battery and Vapor Tip Attachment can be purchased separately or with the EVRI Starter Pack. More attachments coming soon! EVRI evolves with consumption. 1% of all EVRI sales donated to drug policy reform via MPP.org and SSDP.org."
+    "Elevate your vaping experience with the sleekest vaporizer on the market. The Vessel Style Series vaporizers are crafted to perfection and function like none other. The industry is loaded with brand vape pens and Vessel has set out to set the new standard in personal vaporizers.",
+    "The Vessel Style Series is engineered for simple sophistication with anodized aluminum for a visually stunning appearance. Featuring a protected, 510 threaded cartridge drop-in design with maximum air flow design; never worry about your pen snapping in your pocket or purse again. The Vessel Style also features a long-lasting 240mAh battery with 3 LEDs to indicate current battery life and power settings. Three power/voltage settings allow for you to find the perfect vaping experience."
   ],
   "features": [
-    "Compatible with Evri Vaporizer",
-    "For Use with 510 Cartridges and Pods",
-    "Easy Change Magnetic Connection",
-    "Size: 4.625\" x 1\" x .875\""
+    "Visually Stunning Design",
+    "Fits Most 510 Threaded Cartridges",
+    "Maximum Air Flow Design",
+    "Long Lasting 240mAh Smart Battery",
+    "3-LEDs Indicate Battery Life and Power Settings",
+    "Three Power/Voltage Settings (Low 2.8V, Medium 3.2V, High 3.6V)",
+    "5-Click On/Off Feature",
+    "3-Click Temperature Cycle",
+    "Auto-Off Feature",
+    "USB Magnetic Charging Port (Cable Included)",
+    "Dimensions: 4.3\" x .5\"",
+    "One Year Limited Manufacturer's Warranty"
   ]
 }
