@@ -7,21 +7,12 @@ Content-Type: application/json
   "categories": "Vaporizer",
   "price": 7600,
   "description": [
-    "This device unlocks the true power of concentrates, providing the clearest expression of the potency, flavor, and effects of the plant they're derived from. This means you get the most efficient and enjoyable experience, faster and easier than ever before, with no learning curve."
+    "The 510/Pod Attachment for EVRI connects to standard 510 cartridges and refillable e-juice pods. (Cartridge and pod pictured not included with attachment.) EVRI by Dip Devices is a multi-functional consumption solution. EVRI features a battery that connects magnetically to continuously evolving attachments. This item is for the 510/Pod Attachment only. The EVRI Battery and Vapor Tip Attachment can be purchased separately or with the EVRI Starter Pack. More attachments coming soon! EVRI evolves with consumption. 1% of all EVRI sales donated to drug policy reform via MPP.org and SSDP.org."
   ],
   "features": [
-    "Hand Blown Glass",
-    "Water Filtration",
-    "4 Unique User Heat Settings",
-    "20 Second Average Heat Time",
-    "Intelligent Temperature Calibration",
-    "2 Hour Fast Charge Time",
-    "30 Dab Average Battery Life",
-    "Removable Ceramic Bowl",
-    "LED Light Band & Haptic Feedback",
-    "Rugged Silicone Base",
-    "Carrying Case Included",
-    "Height: 7\"",
-    "Base Diameter: 2.75\""
+    "Compatible with Evri Vaporizer",
+    "For Use with 510 Cartridges and Pods",
+    "Easy Change Magnetic Connection",
+    "Size: 4.625\" x 1\" x .875\""
   ]
 }
