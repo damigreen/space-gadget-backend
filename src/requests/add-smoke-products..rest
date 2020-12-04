@@ -2,19 +2,26 @@ POST http://localhost:3004/api/smoke-products
 Content-Type: application/json
 
 {
-  "name": "Puffco Plus Portable Vaporizer",
-  "brand": "Puffco",
+  "name": "Dip Devices Evri 510 Pod Attachment",
+  "brand": "Dip Devices",
   "categories": "Vaporizer",
-  "price": 38000,
+  "price": 7600,
   "description": [
-    "The Puffco Plus is a top of the line coil-less portable vaporizer for concentrates. The mouthpiece has an awesome built in loading tool making it easy to load on the go! The loading tool widens at its base to act as a carb cap making every hit feel like your smoking out of a rig. The coil-less chamber is made from ceramic and evenly heats your wax instead of burning your materials like coiled pens. Made out of precision machined alloy that is fingerprint resistant, the Puffco Plus is packed with amazing features. There are 3 different heat settings and a 12 second continuous heat mode. To start continuous mode, just double tap the cloud button and take a hit without having hold down the button! The Puffco Plus comes with an extra chamber, usb charger and cleaning swabs."
+    "This device unlocks the true power of concentrates, providing the clearest expression of the potency, flavor, and effects of the plant they're derived from. This means you get the most efficient and enjoyable experience, faster and easier than ever before, with no learning curve."
   ],
   "features": [
-    "Coil-less Ceramic Chamber",
-    "3 Heat Settings",
-    "Built in Loading Tool & Carb Cap",
-    "Precision Alloy Metal Body",
-    "Fingerprint Resistant Coating",
-    "Long Battery Life"
+    "Hand Blown Glass",
+    "Water Filtration",
+    "4 Unique User Heat Settings",
+    "20 Second Average Heat Time",
+    "Intelligent Temperature Calibration",
+    "2 Hour Fast Charge Time",
+    "30 Dab Average Battery Life",
+    "Removable Ceramic Bowl",
+    "LED Light Band & Haptic Feedback",
+    "Rugged Silicone Base",
+    "Carrying Case Included",
+    "Height: 7\"",
+    "Base Diameter: 2.75\""
   ]
 }
