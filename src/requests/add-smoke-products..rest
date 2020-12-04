@@ -2,14 +2,19 @@ POST http://localhost:3004/api/smoke-products
 Content-Type: application/json
 
 {
-  "name": "Grenco Science G Pen Elite Vaporizer for Ground Material",
-  "brand": "Grenco Science",
+  "name": "Puffco Plus Portable Vaporizer",
+  "brand": "Puffco",
   "categories": "Vaporizer",
-  "price": 45600,
+  "price": 38000,
   "description": [
-    "Designed for superior vaporization of your dry herb, The G PEN Elite brings the same style and quality you've come to expect from Grenco Science and improves upon it.", "The G PEN line is known for its style, and The Elite has taken that to the next level. The new ergonomic design features a compact body engineered for ultimate portability without sacrificing its stylish appearance.", "The G Pen Elite features custom temperatures and a brilliant new LED interface that shows the current temperature and battery life. It takes only 30 seconds to heat up, even with one of the largest chambers on the market. This fully ceramic chamber allows for 360% heating on all sides, which provides unparalleled flavor.", "Fully charge the device (minimum of 3 hours). Remove the mouthpiece by gripping both sides firmly in one hand and lifting one side upward. Fully load the chamber with your preferred herb. Power on the device by pressing the front panel button 5 times (press 5 times again to turn off). Use the side buttons to select your preferred vaporization temperature. Hold the front panel button down for one second, release, and wait. Once the LED display indicates that your selected temperature has been reached, you can begin to draw from the vaporizer."
+    "The Puffco Plus is a top of the line coil-less portable vaporizer for concentrates. The mouthpiece has an awesome built in loading tool making it easy to load on the go! The loading tool widens at its base to act as a carb cap making every hit feel like your smoking out of a rig. The coil-less chamber is made from ceramic and evenly heats your wax instead of burning your materials like coiled pens. Made out of precision machined alloy that is fingerprint resistant, the Puffco Plus is packed with amazing features. There are 3 different heat settings and a 12 second continuous heat mode. To start continuous mode, just double tap the cloud button and take a hit without having hold down the button! The Puffco Plus comes with an extra chamber, usb charger and cleaning swabs."
   ],
   "features": [
-    "For Use With Dry Herb", "Easily Fits in Pocket", "Fully Ceramic and Coilless 360 Chamber", "Custom Temperature", "Large Capacity Chamber", "Brilliant LED Interface", "Heat Up Time: 30 min", "Battery Life: 3 hrs"
+    "Coil-less Ceramic Chamber",
+    "3 Heat Settings",
+    "Built in Loading Tool & Carb Cap",
+    "Precision Alloy Metal Body",
+    "Fingerprint Resistant Coating",
+    "Long Battery Life"
   ]
 }
