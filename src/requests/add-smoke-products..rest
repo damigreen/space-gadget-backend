@@ -2,21 +2,21 @@ POST http://localhost:3004/api/smoke-products
 Content-Type: application/json
 
 {
-  "name": "Mighty Portable Vaporizer by Storz & Bickel",
-  "brand": "Storz & Bickel",
+  "name": "Ooze Gusher Globe Vaporizer Kit",
+  "brand": "Ooze",
   "categories": "Vaporizer",
-  "price": 133000,
+  "price": 13000,
   "description": [
-    "The Mighty Vaporizer from Storz & Bickel delivers high quality vapor in a sleek, handheld design. The Mighty incorporates several cutting-edge thermal engineering features, enhancing the vaporization experience. The Mighty Vaporizer is a dual lithium-ion battery powered portable vaporizer that utilizes full convection hot air combined with conduction, and a high efficiency heat exchanger along with a LED temperature display and precise temperature control. About an inch taller and wider than Crafty, the Mighty vaporizer is almost twice the weight and features twice the battery capacity.",
-    "The Mighty is hand-crafted in Germany by Storz & Bickel, the makers of the Volcano Vaporizer and Plenty Vaporizer, and is constructed of top quality materials for first-rate durability and functionality. The Mighty's vapor quality is similar to the Volcano: dense, aromatic, and pure. The Mighty's effective vapor production system makes for an enjoyable experience without the learning curve or multitude of components found in other vaporizers."
+    "The Gusher Globe Kit from Ooze includes a top of the line vaporizer, silicone product container, USB charger, product handling tool, coil, and a case to store everything. This vaporizer kit is special because as the name implies, it is a globe (large and transparent heating chamber), and it gushes (huge clouds of vape straight into your mouth). Who says you can’t find a vape that is both high quality and affordable?"
   ],
   "features": [
-    "For Use with Dry Herbs",
-    "For Use with Extracts and Liquids When Using included Liquid Pad",
-    "Silent Two-Button Operation for Precise Temperature Control",
-    "Full Convection Hot Air + Conduction Combined",
-    "Haptic Vibration Alarm",
-    "High Efficiency Heat Exchanger",
-    "Battery & Temperature Displays"
+    "Globe Style Vaporizer Pen",
+    "Hand Blown Glass Globe",
+    "650mAh Battery with 20 Second Pre-Heat Mode",
+    "Dual Quartz Coils",
+    "Wickless Design",
+    "Perfect on the Go Vaporizer",
+    "For Use With: Extracts",
+    "Length: 6.5\""
   ]
 }
