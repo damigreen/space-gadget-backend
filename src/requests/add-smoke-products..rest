@@ -2,26 +2,21 @@ POST http://localhost:3004/api/smoke-products
 Content-Type: application/json
 
 {
-  "name": "Vessel Style Series Vape Pen Battery",
-  "brand": "Vessel",
+  "name": "Mighty Portable Vaporizer by Storz & Bickel",
+  "brand": "Storz & Bickel",
   "categories": "Vaporizer",
-  "price": 30000,
+  "price": 133000,
   "description": [
-    "Elevate your vaping experience with the sleekest vaporizer on the market. The Vessel Style Series vaporizers are crafted to perfection and function like none other. The industry is loaded with brand vape pens and Vessel has set out to set the new standard in personal vaporizers.",
-    "The Vessel Style Series is engineered for simple sophistication with anodized aluminum for a visually stunning appearance. Featuring a protected, 510 threaded cartridge drop-in design with maximum air flow design; never worry about your pen snapping in your pocket or purse again. The Vessel Style also features a long-lasting 240mAh battery with 3 LEDs to indicate current battery life and power settings. Three power/voltage settings allow for you to find the perfect vaping experience."
+    "The Mighty Vaporizer from Storz & Bickel delivers high quality vapor in a sleek, handheld design. The Mighty incorporates several cutting-edge thermal engineering features, enhancing the vaporization experience. The Mighty Vaporizer is a dual lithium-ion battery powered portable vaporizer that utilizes full convection hot air combined with conduction, and a high efficiency heat exchanger along with a LED temperature display and precise temperature control. About an inch taller and wider than Crafty, the Mighty vaporizer is almost twice the weight and features twice the battery capacity.",
+    "The Mighty is hand-crafted in Germany by Storz & Bickel, the makers of the Volcano Vaporizer and Plenty Vaporizer, and is constructed of top quality materials for first-rate durability and functionality. The Mighty's vapor quality is similar to the Volcano: dense, aromatic, and pure. The Mighty's effective vapor production system makes for an enjoyable experience without the learning curve or multitude of components found in other vaporizers."
   ],
   "features": [
-    "Visually Stunning Design",
-    "Fits Most 510 Threaded Cartridges",
-    "Maximum Air Flow Design",
-    "Long Lasting 240mAh Smart Battery",
-    "3-LEDs Indicate Battery Life and Power Settings",
-    "Three Power/Voltage Settings (Low 2.8V, Medium 3.2V, High 3.6V)",
-    "5-Click On/Off Feature",
-    "3-Click Temperature Cycle",
-    "Auto-Off Feature",
-    "USB Magnetic Charging Port (Cable Included)",
-    "Dimensions: 4.3\" x .5\"",
-    "One Year Limited Manufacturer's Warranty"
+    "For Use with Dry Herbs",
+    "For Use with Extracts and Liquids When Using included Liquid Pad",
+    "Silent Two-Button Operation for Precise Temperature Control",
+    "Full Convection Hot Air + Conduction Combined",
+    "Haptic Vibration Alarm",
+    "High Efficiency Heat Exchanger",
+    "Battery & Temperature Displays"
   ]
 }
