@@ -2,20 +2,19 @@ POST http://localhost:3004/api/smoke-products
 Content-Type: application/json
 
 {
-  "name": "GRAV 3.25\" Pinch Spoon",
-  "brand": "Grav",
+  "name": "Bonz 3.5\" Clear Metal Pipe",
+  "brand": "Big Pipe",
   "categories": "Pipe",
-  "price": 7600,
+  "price": 3800,
   "description": [
-    "These Sherlocks from Grav (formerly Grav Labs) are the new elegant smoking experience. Stylish and tough. Each sherlock hand pipe features an inverted-cone ash catcher mouthpiece to avoid being left with the ash in your mouth. Available in several colors."
+    "The Bonz metal pipe features a crystal clear see-through stem so you can see the smoke in action! It measures 3.5\" in length and is available in 5 colors. All parts disassemble for easy cleaning."
   ],
   "features": [
-    "Stylish and Tough",
-    "Inverted Cone Ash Catcher Mouthpiece",
-    "Grav Labs Decal",
-    "Available in Several Colors",
-    "Made in USA",
-    "Length: 6\"",
-    "Glass Diameter: 32mm"
+    "Traditional Size and Shape",
+    "See-Thru Stem",
+    "Disassembles for Easy Cleaning",
+    "Available in Several Colors"
+    "Made in the USA",
+    "Length: 2.5\""
   ]
 }
