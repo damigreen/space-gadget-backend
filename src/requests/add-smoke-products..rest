@@ -2,19 +2,22 @@ POST http://localhost:3004/api/smoke-products
 Content-Type: application/json
 
 {
-  "name": "Bonz 3.5\" Clear Metal Pipe",
-  "brand": "Big Pipe",
+  "name": "7 Pipe Twisty Glass Blunt",
+  "brand": "7 Pipe",
   "categories": "Pipe",
-  "price": 3800,
+  "price": 11500,
   "description": [
-    "The Bonz metal pipe features a crystal clear see-through stem so you can see the smoke in action! It measures 3.5\" in length and is available in 5 colors. All parts disassemble for easy cleaning."
+    "Rolling will never be the same again. Easily pack up to 1.5 grams of tobacco into the glass tube and twist the screw counter-clockwise into the tube. After that, all you need to do is light the end and inhale. To ash, simply twist the screw clockwise and the ash will get pushed out the glass leaving fresh tobacco for your next drag.",
+    "7 Pipe engineered the Twisty Glass Blunt to have a unique infini-cherry to avoid having to light the pipe before every hit. Each Twisty Glass Blunt comes with a premium 2mm thick German-engineered SCHOTT's glass that is ready to give you a clean hit every time. The Twisty Glass Blunt can also be inserted and used with any 14mm bong! The Twisty Glass Blunt is perfect for smoking on the go."
   ],
   "features": [
-    "Traditional Size and Shape",
-    "See-Thru Stem",
-    "Disassembles for Easy Cleaning",
-    "Available in Several Colors"
-    "Made in the USA",
-    "Length: 2.5\""
+    "Authentic Product - Beware of Counterfeits",
+    "Revolutionary Glass Blunt Design",
+    "Holds Up to 1.5 Grams",
+    "2mm Thick German Schott Glass",
+    "Fits 14mm Glass on Glass Joint",
+    "Extremely Portable and Discreet",
+    "Corkscrew Design Always Provides Fresh Hit",
+    "Dimensions: 4\" x .625\""
   ]
 }
