@@ -2,19 +2,20 @@ POST http://localhost:3004/api/smoke-products
 Content-Type: application/json
 
 {
-  "name": "RYOT Large Aluminum One Hitter Bat",
-  "brand": "RYOT",
+  "name": "GRAV 3.25\" Pinch Spoon",
+  "brand": "Grav",
   "categories": "Pipe",
-  "price": 2000,
+  "price": 7600,
   "description": [
-    "Brand new from RYOT comes the 9mm Anodized Aluminum one hitter taster bat. These stylish cigarette-style bats feature are available in a variety of colors to match almost any dugout. Compatible with RYOT Large Taster Boxes and other dugouts accepting a 3\" one hitter bat."
+    "These Sherlocks from Grav (formerly Grav Labs) are the new elegant smoking experience. Stylish and tough. Each sherlock hand pipe features an inverted-cone ash catcher mouthpiece to avoid being left with the ash in your mouth. Available in several colors."
   ],
   "features": [
-    "New Stylish Cigarette-Style Design",
-    "Durable Anodized Aluminum Construction",
-    "9mm Diameter",
-    "Compatible with RYOT Large Dugouts",
+    "Stylish and Tough",
+    "Inverted Cone Ash Catcher Mouthpiece",
+    "Grav Labs Decal",
     "Available in Several Colors",
-    "Length: 3\""
+    "Made in USA",
+    "Length: 6\"",
+    "Glass Diameter: 32mm"
   ]
 }
