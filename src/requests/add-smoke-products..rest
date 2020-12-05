@@ -2,26 +2,22 @@ POST http://localhost:3004/api/smoke-products
 Content-Type: application/json
 
 {
-  "name": "Vessel Expedition Series Vape Pen Battery",
-  "brand": "Vessel",
-  "categories": "Vaporizer",
-  "price": 30000,
+  "name": "GRAV 16mm Octo-Taster w/ Silicone Skin",
+  "brand": "Grav",
+  "categories": "Pipe",
+  "price": 4500,
   "description": [
-    "Elevate your vaping experience with the sleekest vaporizer on the market. The Vessel Expedition Series vaporizers are crafted to perfection and function like none other. The industry is loaded with brand vape pens and Vessel has set out to set the new standard in personal vaporizers.",
-    "The Vessel Expedition Series is engineered for the adventurer. Cool anodized aluminum and knurled grip designs for a commanding appearance. Featuring a protected, 510 threaded cartridge drop-in design with maximum air flow design; never worry about your pen snapping in your pocket or purse again. The Vessel Expedition Series also features a long-lasting 240mAh battery with 3 LEDs to indicate current battery life and power settings. Three power/voltage settings allow for you to find the perfect vaping experience."
+    "This GRAV Octo-Taster is a perfect hybrid of silicone and glass. Enjoy the flavor of smoking with glass while having the unbreakable qualities of silicone. The silicone skin is bouncy and shock-absorbent to protect your glass taster. The pinched mouthpiece acts as an ash catcher and the silicone cap keeps your bud in place. The entire silicone skin comes off for easy cleaning, and you can just peel back the end cap during use. And instead of a normal restriction, the taster has a glass screen for an extra layer of filtration."
   ],
   "features": [
-    "Visually Stunning Design",
-    "Fits Most 510 Threaded Cartridges",
-    "Maximum Air Flow Design",
-    "Long Lasting 240mAh Smart Battery",
-    "3-LEDs Indicate Battery Life and Power Settings",
-    "Three Power/Voltage Settings (Low 2.8V, Medium 3.2V, High 3.6V)",
-    "5-Click On/Off Feature",
-    "3-Click Temperature Cycle",
-    "Auto-Off Feature",
-    "USB Magnetic Charging Port (Cable Included)",
-    "Dimensions: 4.3\" x .5\"",
-    "One Year Limited Manufacturer's Warranty"
+    "16mm Glass GRAV Taster",
+    "Protective Silicone Skin",
+    "Silicone Cover Holds Bud in Pla-ce",
+    "Pinched Mouthpiece Ash Catcher",
+    "Fits Perfectly in Your Pocket or Purse",
+    "GRAV Decal",
+    "Available in Several Colors",
+    "Length: 4\"",
+    "Glass Diameter: 16mm"
   ]
 }
