@@ -2,24 +2,24 @@ POST http://localhost:3004/api/smoke-products
 Content-Type: application/json
 
 {
-  "name": "Piecemaker Karma Silicone Pocket Pipe",
-  "brand": "Piecemaker",
-  "categories": "Pipe",
-  "price": 6000,
+  "name": "Famous X Valkyrie Dry Herb Vaporizer",
+  "brand": "Famous Brandz",
+  "categories": "Vaporizer",
+  "price": 34000,
   "description": [
-    "The Piecemaker Karma Pocket Pipe is the ultimate convenience pipe. It’s small, durable, and easy to use. The nearly indestructible silicone design is perfect for on the go use like concerts, festivals, or hanging out with friends. Choose from a variety of colors and designs for a unique piece that is all yours.",
-    "The Karma Pocket Pipe features a number of convenient details, including a removable stainless steel bowl for easy packing and cleaning plus a unique spill-proof cap for even more travel versatility. The Piecemaker Karma is made even better by its silicone construction, which makes for a soft feel and a smooth smoke. The stylish design and innovative features make this pipe the perfect everyday piece for yourself or a go-to gift for the smoker in your life."
+    "Introducing a new convection dry herb vaporizer from the team at Famous. Convection heating eliminates direct contact between the heating coil and your dry herbs eliminating combustion risk, delivering only rich, milky clouds of vapor that are packed with all the wonderful flavors that your herbs have to offer.",
+    "The Valkyrie features an ergonomic design that fits comfortably in your hand and can easily be used as your new daily vaping device. The magnetic mouthpiece and chamber makes loading your vape quick and easy as well as easier to clean. Set it in normal or smart path mode - a mode that allows you to modify session by temperature and time. Change temperature degree by degree by using the small buttons flanking the Digital OLED screen, press both together to switch between Celsius and Fahrenheit. Temperature range is able to be controlled between 80⁰C-200⁰C (176⁰F-428⁰F)."
   ],
   "features": [
-    "Ajustable Glass Blunt - Pick the Perfect Size for You",
-    "Step Down to Eject Ash and Keep a Fresh Light Every Time",
-    "Built in Screen Protects from Inhaling Debris",
-    "Silicone Cap Included - Pack Your Blunt and Take it With You",
-    "Small, Portable Size Fits Easily into Pocket or Purse",
-    "High Quality Metal Body with Glass Chamber",
-    "All Parts Disassemble for Easy Cleaning",
-    "Available in Several Colors",
-    "Length: 2.5\" (3.75\" Fully Extended)",
-    "Width: .5\""
+    "Rechargeable 3200mAh Battery",
+    "Magnetic Mouthpiece and Chamber",
+    "Small and Ergonomic Design",
+    "Normal and Smart Path Modes",
+    "Convection Heating",
+    "Auto Safety Shutoff",
+    "Digital OLED Screen",
+    "Temperature Range: 80⁰C-200⁰C (176⁰F-428⁰F)",
+    "Dimensions: 4\" x 2\" x 1\"",
+    "For Use With: Dry Herbs"
   ]
 }
