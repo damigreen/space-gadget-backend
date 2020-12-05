@@ -2,22 +2,19 @@ POST http://localhost:3004/api/smoke-products
 Content-Type: application/json
 
 {
-  "name": "GRAV 16mm Octo-Taster w/ Silicone Skin",
-  "brand": "Grav",
+  "name": "RYOT Large Aluminum One Hitter Bat",
+  "brand": "RYOT",
   "categories": "Pipe",
-  "price": 4500,
+  "price": 2000,
   "description": [
-    "This GRAV Octo-Taster is a perfect hybrid of silicone and glass. Enjoy the flavor of smoking with glass while having the unbreakable qualities of silicone. The silicone skin is bouncy and shock-absorbent to protect your glass taster. The pinched mouthpiece acts as an ash catcher and the silicone cap keeps your bud in place. The entire silicone skin comes off for easy cleaning, and you can just peel back the end cap during use. And instead of a normal restriction, the taster has a glass screen for an extra layer of filtration."
+    "Brand new from RYOT comes the 9mm Anodized Aluminum one hitter taster bat. These stylish cigarette-style bats feature are available in a variety of colors to match almost any dugout. Compatible with RYOT Large Taster Boxes and other dugouts accepting a 3\" one hitter bat."
   ],
   "features": [
-    "16mm Glass GRAV Taster",
-    "Protective Silicone Skin",
-    "Silicone Cover Holds Bud in Pla-ce",
-    "Pinched Mouthpiece Ash Catcher",
-    "Fits Perfectly in Your Pocket or Purse",
-    "GRAV Decal",
+    "New Stylish Cigarette-Style Design",
+    "Durable Anodized Aluminum Construction",
+    "9mm Diameter",
+    "Compatible with RYOT Large Dugouts",
     "Available in Several Colors",
-    "Length: 4\"",
-    "Glass Diameter: 16mm"
+    "Length: 3\""
   ]
 }
