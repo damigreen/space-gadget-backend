@@ -2,21 +2,26 @@ POST http://localhost:3004/api/smoke-products
 Content-Type: application/json
 
 {
-  "name": "Ooze Gusher Globe Vaporizer Kit",
-  "brand": "Ooze",
+  "name": "Vessel Expedition Series Vape Pen Battery",
+  "brand": "Vessel",
   "categories": "Vaporizer",
-  "price": 13000,
+  "price": 30000,
   "description": [
-    "The Gusher Globe Kit from Ooze includes a top of the line vaporizer, silicone product container, USB charger, product handling tool, coil, and a case to store everything. This vaporizer kit is special because as the name implies, it is a globe (large and transparent heating chamber), and it gushes (huge clouds of vape straight into your mouth). Who says you can’t find a vape that is both high quality and affordable?"
+    "Elevate your vaping experience with the sleekest vaporizer on the market. The Vessel Expedition Series vaporizers are crafted to perfection and function like none other. The industry is loaded with brand vape pens and Vessel has set out to set the new standard in personal vaporizers.",
+    "The Vessel Expedition Series is engineered for the adventurer. Cool anodized aluminum and knurled grip designs for a commanding appearance. Featuring a protected, 510 threaded cartridge drop-in design with maximum air flow design; never worry about your pen snapping in your pocket or purse again. The Vessel Expedition Series also features a long-lasting 240mAh battery with 3 LEDs to indicate current battery life and power settings. Three power/voltage settings allow for you to find the perfect vaping experience."
   ],
   "features": [
-    "Globe Style Vaporizer Pen",
-    "Hand Blown Glass Globe",
-    "650mAh Battery with 20 Second Pre-Heat Mode",
-    "Dual Quartz Coils",
-    "Wickless Design",
-    "Perfect on the Go Vaporizer",
-    "For Use With: Extracts",
-    "Length: 6.5\""
+    "Visually Stunning Design",
+    "Fits Most 510 Threaded Cartridges",
+    "Maximum Air Flow Design",
+    "Long Lasting 240mAh Smart Battery",
+    "3-LEDs Indicate Battery Life and Power Settings",
+    "Three Power/Voltage Settings (Low 2.8V, Medium 3.2V, High 3.6V)",
+    "5-Click On/Off Feature",
+    "3-Click Temperature Cycle",
+    "Auto-Off Feature",
+    "USB Magnetic Charging Port (Cable Included)",
+    "Dimensions: 4.3\" x .5\"",
+    "One Year Limited Manufacturer's Warranty"
   ]
 }
