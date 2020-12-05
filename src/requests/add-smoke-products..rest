@@ -2,18 +2,24 @@ POST http://localhost:3004/api/smoke-products
 Content-Type: application/json
 
 {
-  "name": "SMOKEA 3\" Custom Metal Pipe",
-  "brand": "Smokea",
+  "name": "Piecemaker Karma Silicone Pocket Pipe",
+  "brand": "Piecemaker",
   "categories": "Pipe",
-  "price": 2000,
+  "price": 6000,
   "description": [
-    "The SMOKEA 3\" Metal Pipe features a clear sleeve with the SMOKEA logo inside. Perfectly sized to be a discreet travel friendly pipe you can throw in your pocket or purse. Show off your favorite online headshop by using this durable, long-lasting metal pipe. Measures 3\" in length and features all parts that disassemble for easy cleaning."
+    "The Piecemaker Karma Pocket Pipe is the ultimate convenience pipe. It’s small, durable, and easy to use. The nearly indestructible silicone design is perfect for on the go use like concerts, festivals, or hanging out with friends. Choose from a variety of colors and designs for a unique piece that is all yours.",
+    "The Karma Pocket Pipe features a number of convenient details, including a removable stainless steel bowl for easy packing and cleaning plus a unique spill-proof cap for even more travel versatility. The Piecemaker Karma is made even better by its silicone construction, which makes for a soft feel and a smooth smoke. The stylish design and innovative features make this pipe the perfect everyday piece for yourself or a go-to gift for the smoker in your life."
   ],
   "features": [
-    "SMOKEA Sleeve Design",
-    "Discreet Size",
-    "Disassembles for Easy Cleaning",
-    "Made in the USA",
-    "Length: 3\""
+    "Ajustable Glass Blunt - Pick the Perfect Size for You",
+    "Step Down to Eject Ash and Keep a Fresh Light Every Time",
+    "Built in Screen Protects from Inhaling Debris",
+    "Silicone Cap Included - Pack Your Blunt and Take it With You",
+    "Small, Portable Size Fits Easily into Pocket or Purse",
+    "High Quality Metal Body with Glass Chamber",
+    "All Parts Disassemble for Easy Cleaning",
+    "Available in Several Colors",
+    "Length: 2.5\" (3.75\" Fully Extended)",
+    "Width: .5\""
   ]
 }
