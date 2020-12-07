@@ -6,6 +6,8 @@ const config = require('./utils/config');
 const productRouter = require('./router/productRouter')
 const computersRouter = require('./router/computersRouter');
 const smokeProductRouter = require('./router/smokeProductRouter');
+const cors = require("cors");
+
 
 // const Product = require('../models/product');
 // const PhoneDetail = require('../models/product');
@@ -25,6 +27,7 @@ mongoose.connect(mongoUrl, { useNewUrlParser: true, useUnifiedTopology: true })
 // console.log(nameOfSamsung);
   
 
+app.use(cors());
 app.use(bodyParser.json());
 app.use(express.json());
 app.use('/api/products/mobile-phones', productRouter);

@@ -4,7 +4,8 @@ const Product = require('../models/product');
 productRouter.get('/', async (req, res, next) => {
   try {
     const products = await Product.find({}).populate('category_id', { name: 1, status: 1 });
-    res.json(products.map(p => p.toJSON()));
+    // const products = await Product.find({});
+    await res.json(products.map(p => p.toJSON()));
   } catch (e) {
     console.log(`error ${e}`);
     next(e);

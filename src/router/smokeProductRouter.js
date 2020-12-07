@@ -3,7 +3,8 @@ const SmokeProduct = require('../models/smokeProduct');
 const smokeProductRouter = express.Router();
 
 smokeProductRouter.get('/', async (req, res) => {
-
+  const smokeProducts = await SmokeProduct.find({});
+  return res.json(smokeProducts.map(p => p.toJSON()));
 });
 
 smokeProductRouter.post('/', async (req, res) => {
