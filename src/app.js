@@ -6,6 +6,7 @@ const config = require('./utils/config');
 const productRouter = require('./router/productRouter')
 const computersRouter = require('./router/computersRouter');
 const smokeProductRouter = require('./router/smokeProductRouter');
+const accessoriesProduct = require('./router/accessoriesProduct');
 const cors = require("cors");
 
 
@@ -32,7 +33,8 @@ app.use(bodyParser.json());
 app.use(express.json());
 app.use('/api/products/mobile-phones', productRouter);
 app.use('/api/products/computers', computersRouter);
-app.use('/api/smoke-products', smokeProductRouter);
+app.use('/api/products/smoke-products', smokeProductRouter);
+app.use('/api/products/accessories', accessoriesProduct);
 
 
 app.get('/ping', (req, res) => {
