@@ -2,7 +2,7 @@ POST http://localhost:3004/api/products/accessories
 Content-Type: application/json
 
 {
-  "product_SKU": "HED-TDWBEM9",
+  "product_SKU": "HED-KBHN2PVWH",
   "product_name": "KLOKOL Bluetooth Headphones Neckband 20Hrs Playtime V5.0 Wireless Headset",
   "product_model": "End Sars",
   "product_image": ["download", "6156Y-D5gfL._AC_SL1000_", "61TdhWUJnVL._AC_SL1000_", "51jdOLf0RIL._AC_SL1000_", "51GGFITJHWL._AC_SL1000_"],
