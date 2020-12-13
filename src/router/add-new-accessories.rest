@@ -2,15 +2,15 @@ POST http://localhost:3004/api/products/accessories
 Content-Type: application/json
 
 {
-  "product_SKU": "HED-IXM-BEH-2DNR",
-  "product_name": "ISOtunes Xtra Max Bluetooth Earplug Headphones, 27 dB Noise Reduction Rating",
-  "product_model": "ISOtunes",
-  "product_image": ["71f5EJtgtTL._AC_SL1500_", "41oU76-MlSL._AC_"],
-  "product_price": 18000,
-  "product_color": "black",
-  "product_colors": ["black", "red", "blue", "brown"],
-  "product_description": ["BLOCK NOISE: heat-activated memory foam eartips expand like earplugs to significantly reduce outside noise. ISOtunes PRO hearing protection headphones are ANSI-certified and OSHA-compliant with a 27 dB Noise Reduction Rating (NRR) and ISOtunes SafeMax Technology. Comes with 4 pairs of foam eartips and 1 pair of silicone triple-flange eartips.", "WIRELESS MUSIC & CALLS: wirelessly play music and take calls 30+ feet from your device with Bluetooth 4.1 technology. Features high-fidelity speakers and aptX streaming audio.", "USE ALL DAY: 10+ hour battery life and 240-hour standby time gets you through long days without having to recharge. Custom-fit memory wires fold gently behind your ears to keep eartips securely in place during active and extended wear. Ultra-lightweight design stays comfortable all day.", "CLEAR CALLS IN LOUD ENVIRONMENTS: Signature noise suppressing microphone with echo cancellation technology help block steady state noise like engines, mowers, fans, vacuums, and saws for clear calls in loud environments. Isolation for you, cancellation for them", "BUILT TO LAST: ISOtunes PRO is IP55 sweat & water resistant and comes with a best-in-class 1-year limited manufacturer’s warranty."],
-  "product_features": ["hearing protection", "noise isolation", "rechargeable battery", "advanced quality listening", "capability", "wireless Bluetooth", "connectivity and voice mic for communication through a mobile device"],
+  "product_SKU": "HED-PB1-NBQB- WNCE",
+  "product_name": "Phiaton BT 120 NC Black Qualcomm Bluetooth Wireless Noise Cancelling Earbuds",
+  "product_model": "Phianton",
+  "product_image": ["51HRKJq9EaL._AC_SL1000_", "51o6wqFiI5L._AC_SL1000_", "51jvwJJsrlL._AC_SL1000_"],
+  "product_price": 26000,
+  "product_color": "Black",
+  "product_colors": ["Black", "Red", "Blue", "Brown", "Green"],
+  "product_description": ["ACTIVE NOISE CANCELLING HEADPHONES: ANC headphones with active noise-cancelling technology reduce 95% of external interference from common noises in offices, airplanes, and other locations. Music lovers rejoice with these audiophile headphones that prevent disturbance from outside noises.", "SWEAT AND WATER RESISTANT: These wireless earphones are IPX4 splash resistance certified. An IPX4 headphones rating guarantees your headphones are protected from light rain and heavy perspiration. Sweatproof technology keeps your Bluetooth earbuds safe during the toughest workouts.", "SMART VIBRATION NOTIFICATION: Phiaton BT 120 NC Noise Cancelling Headphones have vibration notification signals when a call is being received. The vibration will also alert you if you stepped outside the communication range. No annoying beeps or alert noises disturbing your listening experience.", "QUICK CHARGE: Phiaton BT 120 NC Wireless Earphones have a fast charge. Five minutes of charge will give you one hour of battery life. Enjoy uninterrupted play with a full charge for a total playtime of 8.5 hours.", "WARRANTY: Continue to enjoy your Phiaton bluetooth wireless earbuds long after the Amazon return period expires. All Phiaton earphones come with a One Year Warranty and we stand behind all of our products backed by a US based customer service team"],
+  "product_features": ["Active Noise Cancelling(95%)", "Fast Charge", "Vibrating Notification", "Wiireless musics and calls", "Memory flex neck band", "Sweat + Water resistance"],
   "product_specifications": ["Bluetooth Version: 4.2", "Bluetooth Distance: 10 meters / 33 ft", "Talk Time: 8-10 hours", "Music Time: 8-10 hours", "Charging Time: 2-3 hours", "Speaker Unit: 10mm high fidelity"],
-  "product_content": ["1 x Bluetooth headset", "1 x USB Charging Cable", "1 x User Manual / 2 x Ear Rubbers"]
+  "product_content": ["1 x Bluetooth headset", "1 x USB Charging Cable", "1 x User Manual", "2 x Ear Rubbers", "3 x Pair of Eartips"]
 }
