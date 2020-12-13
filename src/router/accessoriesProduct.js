@@ -17,6 +17,7 @@ accessoriesRouter.post("/", async (req, res) => {
       product_name: body.product_name,
       product_model: body.product_model,
       product_image: body.product_image,
+      product_price: body.product_price,
       product_color: body.product_color,
       product_colors: body.product_colors,
       product_description: body.product_description,

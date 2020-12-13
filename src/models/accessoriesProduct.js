@@ -7,6 +7,7 @@ const accessoriesProductSchema = new mongoose.Schema({
   product_name: { type: String, required: true, unique: true },
   product_model: String,
   product_image: [{ type: String }],
+  product_price: Number,
   product_color: String,
   product_colors: [{ type: String }],
   product_description: [{ type: String }],
