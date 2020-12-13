@@ -1,5 +1,5 @@
 POST http://localhost:3004/api/products/mobile-phones
-Content-type: application/json
+Content-Type: application/json
 
 {
   "product_SKU":  "AplIpad-IPAMIN2-BLK",
