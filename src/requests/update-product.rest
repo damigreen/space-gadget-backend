@@ -1,0 +1,43 @@
+PUT http://localhost:3004/api/products/mobile-phones/5fb4292f548d3f16f40cb578
+Content-Type: application/json
+
+{
+  "network": {
+    "technology": "GSM / CDMA / HSPA / EVDO / LTE"
+  },
+  "body": {
+    "weight": "333 g (Wi-Fi) / 341 g (3G/LTE) (11.68 oz)"
+  },
+  "display": {
+    "size": "7.9 inches, 193.3 cm2 (~71.7% screen-to-body ratio)",
+    "resolution": "1536 x 2048 pixels, 4:3 ratio (~324 ppi density)"
+  },
+  "platform": {
+    "os": "iOS 7, upgradable to iPadOS 12.4.6",
+    "chipset": "Apple A7 (28 nm)"
+  },
+  "memory": {
+    "internal": "16GB 1GB RAM, 32GB 1GB RAM, 64GB 1GB RAM, 128GB 1GB RAM"
+  },
+  "camera": {
+    "main": "8MP",
+    "selfie": "7MP"
+  },
+  "battery": {
+    "batteryType": "Li-Po 6470 mAh, non-removable (24.3 Wh)"
+  },
+  "misc": {
+    "colors": "Space Gray/Black, Silver/White",
+    "models": "A1489, A1490, A1491"
+  },
+  "product_SKU": "AplIpad-IPAMIN2-BLK",
+  "product_name": "Apple",
+  "product_model": "Apple iPad mini 2",
+  "product_description": "We do more than hit the reset button. Before any device gets labeled Samsung Certified Pre-Owned, it gets completely taken apart and rebuilt by the same engineers who build our new phones. They replace worn out pieces, and we include the same one-year warranty our new phones come with for extra peace of mind.",
+  "unit_price": 122000,
+  "discount_price": null,
+  "product_image": "images/samsung-Apple-ipad-mini2-black",
+  "inserted_at": "2020-11-17T19:49:03.909Z",
+  "updated_at": "2020-11-17T19:49:03.909Z",
+  "id": "5fb4292f548d3f16f40cb578"
+}
