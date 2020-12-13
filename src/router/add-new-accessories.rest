@@ -2,14 +2,15 @@ POST http://localhost:3004/api/products/accessories
 Content-Type: application/json
 
 {
-  "product_SKU": "HED-KBHN2PVWH",
-  "product_name": "KLOKOL Bluetooth Headphones Neckband 20Hrs Playtime V5.0 Wireless Headset",
-  "product_model": "End Sars",
-  "product_image": ["download", "6156Y-D5gfL._AC_SL1000_", "61TdhWUJnVL._AC_SL1000_", "51jdOLf0RIL._AC_SL1000_", "51GGFITJHWL._AC_SL1000_"],
+  "product_SKU": "HED-IXM-BEH-2DNR",
+  "product_name": "ISOtunes Xtra Max Bluetooth Earplug Headphones, 27 dB Noise Reduction Rating",
+  "product_model": "ISOtunes",
+  "product_image": ["71f5EJtgtTL._AC_SL1500_", "41oU76-MlSL._AC_"],
+  "product_price": 18000,
   "product_color": "black",
   "product_colors": ["black", "red", "blue", "brown"],
-  "product_description": ["Wireless Headphones", "Bluetooth 5.0 Earphones", "sport Earbuds Headset With Mic", "Charging box Headphones", " For all smartphones"],
-  "product_features": ["Bluetooth 5.0 Earphones", "Painless wear for long life", "Waterproof", "Faster transfer", "Stronger signal", "Longer battery life"],
-  "product_specifications": ["Bluetooth 5.0 chip", "LED Indicator", "Volume change"],
-  "product_content": ["1 Pair * Earphones", "1 * Micro USB Charging Cable", "3 Pairs * Ear Pads (S, M, L)", "1 * User Manual (Chinese & English)"]
+  "product_description": ["BLOCK NOISE: heat-activated memory foam eartips expand like earplugs to significantly reduce outside noise. ISOtunes PRO hearing protection headphones are ANSI-certified and OSHA-compliant with a 27 dB Noise Reduction Rating (NRR) and ISOtunes SafeMax Technology. Comes with 4 pairs of foam eartips and 1 pair of silicone triple-flange eartips.", "WIRELESS MUSIC & CALLS: wirelessly play music and take calls 30+ feet from your device with Bluetooth 4.1 technology. Features high-fidelity speakers and aptX streaming audio.", "USE ALL DAY: 10+ hour battery life and 240-hour standby time gets you through long days without having to recharge. Custom-fit memory wires fold gently behind your ears to keep eartips securely in place during active and extended wear. Ultra-lightweight design stays comfortable all day.", "CLEAR CALLS IN LOUD ENVIRONMENTS: Signature noise suppressing microphone with echo cancellation technology help block steady state noise like engines, mowers, fans, vacuums, and saws for clear calls in loud environments. Isolation for you, cancellation for them", "BUILT TO LAST: ISOtunes PRO is IP55 sweat & water resistant and comes with a best-in-class 1-year limited manufacturer’s warranty."],
+  "product_features": ["hearing protection", "noise isolation", "rechargeable battery", "advanced quality listening", "capability", "wireless Bluetooth", "connectivity and voice mic for communication through a mobile device"],
+  "product_specifications": ["Bluetooth Version: 4.2", "Bluetooth Distance: 10 meters / 33 ft", "Talk Time: 8-10 hours", "Music Time: 8-10 hours", "Charging Time: 2-3 hours", "Speaker Unit: 10mm high fidelity"],
+  "product_content": ["1 x Bluetooth headset", "1 x USB Charging Cable", "1 x User Manual / 2 x Ear Rubbers"]
 }
