@@ -1,0 +1,1 @@
+GET http://localhost:3004/api/products/computers/5fb7909221a68a3d6c7d7ae4
