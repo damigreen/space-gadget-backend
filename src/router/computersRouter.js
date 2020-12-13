@@ -4,7 +4,7 @@ const ProductLaptop = require('../models/productLaptop');
 computersRouter.get('/', async (req, res, next) => {
   try {
     const allComputers = await ProductLaptop.find({});
-    res.json(allComputers.map(com => computersRouter.toJSON()));
+    res.json(allComputers.map(com => com.toJSON()));
   } catch (e) {
     console.log(`Error occured ${e}`);
     next(e);
@@ -54,6 +54,66 @@ computersRouter.post('/', async (req, res, next) => {
   } catch (e) {
     console.log(`error ${e}`);
     next(e);
+  }
+});
+
+computersRouter.get('/:id', async (req, res) => {
+  try {
+    const computerObj = await ProductLaptop.findById(req.params.id);
+    if (computerObj) {
+      res.json(computerObj.toJSON());
+    } else {
+      res.status(404).end();
+    }
+
+  } catch (e) {
+    console.log(e);
+  }
+});
+
+computersRouter.put('/:id', async (req, res) => {
+  const body = req.body;
+  console.log(body);
+
+  try {
+    const productObj = {
+        // product_id: uuidv4(),
+        product_SKU:  body.product_SKU,
+        product_name: body.product_name,
+        product_model: body.product_model,
+        product_description: body.product_description,
+        quantity_per_unit: body.product_per_unit,
+        unit_price: body.unit_price,
+        discount_price: body.discount_price,
+        available_colors: body.available_colors,
+        product_image: body.product_image,
+        inserted_at: new Date(),
+        updated_at: new Date(),
+        camera: String,
+        battery: body.battery,
+        wireless: {
+          wifi: body.wireless.wifi,
+          bluetooth: body.wireless.bluetooth
+        },
+        body: {
+          dimension: body.body.dimensions,
+          weight: body.body.weight
+        },
+        misc: {
+          colors: body.misc.colors,
+          models: body.misc.models
+        },
+        processor: body.processor,
+        operating_system: body.operating_system,
+        video_card: body.video_card,
+        hard_drive: body.hard_drive,
+    };
+
+    const updatedProduct = await ProductLaptop.findByIdAndUpdate(req.params.id, productObj, { new: true });
+    res.json(updatedProduct.toJSON());
+
+  } catch(e) {
+    console.log(e);
   }
 });
 

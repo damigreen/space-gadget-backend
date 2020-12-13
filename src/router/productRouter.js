@@ -156,6 +156,15 @@ productRouter.get('/:id', async (req, res) => {
   } catch(e) {
     console.log(e);
   }
-})
+});
+
+productRouter.delete('/:id', async (request, response, next) => {
+  try {
+    await Product.findByIdAndRemove(request.params.id);
+    response.status(204).end();
+  } catch(exception) {
+    next(exception);
+  }
+});
 
 module.exports = productRouter;
